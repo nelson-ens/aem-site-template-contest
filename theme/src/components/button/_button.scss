@@ -1,4 +1,15 @@
-.cmp-button {}
-.cmp-button__text {}
+.cmp-button {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5em 1em;
+  margin: 0.5em 0.5em;
+  border-radius: 1.56em;
+  border-style: solid;
+  border-width: 0.125em;
+}
+.cmp-button__text {
+  font-weight: 300;
+  text-decoration: none;
+}
 .cmp-button__icon {}
 //.cmp-button__icon--myIcon {}

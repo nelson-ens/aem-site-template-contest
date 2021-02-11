@@ -1,4 +1,20 @@
-.cmp-progressbar {}
-.cmp-progressbar__label--completed {}
-.cmp-progressbar__label--remaining {}
-.cmp-progressbar__bar {}
+.cmp-progressbar {
+  display: block;
+  background-color: $grey1;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 1.31em;
+}
+.cmp-progressbar__label--completed {
+  display: none;
+}
+.cmp-progressbar__label--remaining {
+  display: none;
+}
+.cmp-progressbar__bar {
+  background-color: $accent;
+  color: $text;
+  &:after {
+    content: "\0025";
+  }
+}

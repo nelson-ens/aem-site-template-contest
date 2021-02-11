@@ -34,7 +34,7 @@
   & option {
     &:active {
       background-color: $accent;
-      color: $dark-theme-text;
+      color: $text-on-background;
     }
     &:hover {
       background-color: $grey1;

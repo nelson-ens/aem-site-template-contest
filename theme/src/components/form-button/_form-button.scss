@@ -1,7 +1,8 @@
 .cmp-form-button {
   width: fit-content;
   height: fit-content;
-  color: $dark-theme-text;
+  float: right;
+  color: $text-on-background;
   background-color: $accent;
   border-color: $accent;
   border-style: solid;

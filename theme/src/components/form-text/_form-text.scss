@@ -1,4 +1,54 @@
-.cmp-form-text {}
+.cmp-form-text {
+  display: grid;
+  margin: 0.5em 0.5em;
+  & label {
+    font-size: 0.625em;
+    color: $grey3;
+    margin-bottom: 0.5em;
+  }
+}
 .cmp-form-text__help-block {}
-.cmp-form-text__textarea {}
-.cmp-form-text__text {}
+.cmp-form-text__textarea {
+  background-color: $grey1;
+  border-color: $grey1;
+  border-style: solid;
+  border-radius: 0.25em;
+  border-width: 0.125em;
+  padding: 0.78em 1em;
+  font-size: 1em;
+  &:hover {
+    background-color: $color-background;
+  }
+  &:focus {
+    border-color: $accent-focus;
+  }
+  &:active {
+    color: $text;
+  }
+}
+.cmp-form-text__text {
+  background-color: $grey1;
+  border-color: $grey1;
+  border-style: solid;
+  border-radius: 0.25em;
+  border-width: 0.125em;
+  padding: 0.78em 1em;
+  font-size: 1em;
+  &:hover {
+    background-color: $color-background;
+  }
+  &:focus {
+    border-color: $accent-focus;
+  }
+  &:active {
+    color: $text;
+  }
+  //&:invalid {
+  //  border-color: $error;
+  //  color: $text;
+  //}
+  //&:valid {
+  //  border-color: $success;
+  //  color: $text;
+  //}
+}

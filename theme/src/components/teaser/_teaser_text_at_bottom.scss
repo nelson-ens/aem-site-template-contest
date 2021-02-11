@@ -1,0 +1,24 @@
+.textAtBottom {
+  .cmp-teaser {}
+  .cmp-teaser__image {
+    position: relative;
+    padding-bottom: 86%;
+    overflow: hidden;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .cmp-teaser__content {}
+  .cmp-teaser__pretitle {}
+  .cmp-teaser__title {}
+  .cmp-teaser__title-link {
+    font-size: 1.75em;
+  }
+  .cmp-teaser__description {}
+  .cmp-teaser__action-container {}
+  .cmp-teaser__action-link {}
+}

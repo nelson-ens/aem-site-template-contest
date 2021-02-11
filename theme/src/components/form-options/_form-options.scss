@@ -1,11 +1,104 @@
-.cmp-form-options {}
-.cmp-form-options__legend {}
-.cmp-form-options__field-label {}
-.cmp-form-options__field {}
-.cmp-form-options__field--checkbox {}
-.cmp-form-options__field--radio {}
-.cmp-form-options__field-description {}
-.cmp-form-options__label {}
+.cmp-form-options {
+  border: none;
+  display: grid;
+}
+
+// == hide legend and help message
+.cmp-form-options__legend {
+  display: none;
+}
+.cmp-form-options__help-message {
+  display: none;
+}
+
+// =============== Drop Down Styles =================
+// == text above drop down
+.cmp-form-options__label {
+  color: $grey3;
+  text-transform: uppercase;
+  font-size: 0.625em;
+  margin-bottom: 0.5em;
+}
+
+// == drop down
+// TODO: fix option tag styles
+.cmp-form-options__field--drop-down {
+  background-color: $color-background;
+  border-color: $grey2;
+  border-width: 0.125em;
+  border-radius: 0.25em;
+  padding: 0.625em 1em;
+  &:active {
+    border-color: $accent-hover;
+  }
+  & option {
+    &:active {
+      background-color: $accent;
+      color: $dark-theme-text;
+    }
+    &:hover {
+      background-color: $grey1;
+    }
+  }
+}
+
+
+// =============== Check Box Styles =================
+// == entire checkbox/radio with text
+.cmp-form-options__field-label {
+  width: fit-content;
+  height: fit-content;
+  &:hover {
+    .cmp-form-options__field--checkbox {
+      background-color: $color-background;
+      border-color: $grey2;
+    }
+    .cmp-form-options__field--radio {
+      background-color: $color-background;
+      border-color: $grey2;
+    }
+  }
+  &:checked {
+    .cmp-form-options__field--checkbox {
+      background-color: $color-background;
+      border-color: $grey2;
+    }
+    .cmp-form-options__field--radio {
+      background-color: $color-background;
+      border-color: $grey2;
+    }
+  }
+}
+
+// == square checkbox
+// TODO: background color is not working
+.cmp-form-options__field--checkbox {
+  background-color: $grey1;
+  width: 1.5em;
+  height: 1.5em;
+  border-color: $grey1;
+  border-width: 0.25em;
+  border-radius: 0.25em;
+}
+
+// == radio checkbox
+.cmp-form-options__field--radio {
+  background-color: $grey1;
+  width: 1.5em;
+  height: 1.5em;
+  border-color: $grey1;
+  border-width: 0.25em;
+  border-radius: 0.25em;
+}
+
+// == text next to checkbox
+.cmp-form-options__field-description {
+  text-align: center;
+  color: $text;
+  margin-left: 0.75em;
+  vertical-align: top;
+}
+
 .cmp-form-options__drop-down-field {}
+
 .cmp-form-options__multi-drop-down-field {}
-.cmp-form-options__help-message {}

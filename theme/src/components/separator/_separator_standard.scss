@@ -1,0 +1,10 @@
+.standard {
+  .cmp-separator {}
+  .cmp-separator__horizontal-rule {
+    border: none;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background-color: $grey2;
+    height: 0.125em;
+  }
+}

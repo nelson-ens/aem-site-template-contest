@@ -1,0 +1,20 @@
+.standard {
+  .cmp-breadcrumb {}
+  .cmp-breadcrumb__list {}
+  .cmp-breadcrumb__item {
+    :not(:last-child) {
+      :after {
+        content: "\003E";
+        color: $grey2;
+        margin: 0 1em;
+      }
+    }
+  }
+  .cmp-breadcrumb__item--active {
+    color: $text;
+  }
+  .cmp-breadcrumb__item-link {
+    text-decoration: none;
+    color: $grey3;
+  }
+}

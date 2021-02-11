@@ -3,10 +3,14 @@
 
 .experiencefragment.header {
     padding: .5em 1em;
-    border-bottom: 1px solid $color-foreground;
+    border-bottom: 0.125em solid $grey1;
+
+    .cmp-image__image {
+        width: 9.2em;
+    }
 
     a {
-        color: $color-foreground;
+        color: $grey4;
         text-decoration: none;
 
         &:hover,

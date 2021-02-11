@@ -5,10 +5,23 @@
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
   "scripts": {
     "build": "aem-site-template-builder",
-    "deploy": "SITE_TEMPLATE_ZIP=\"$(node -p -e \"require('./package.json').name\")-$(node -p -e \"require('./package.json').version\").zip\" && curl -u admin:admin -F file=$SITE_TEMPLATE_ZIP http://localhost:4502/conf/global/site-templates.import.html"
+    "deploy": "SITE_TEMPLATE_ZIP=\"$(node -p -e \"require('./package.json').name\")-$(node -p -e \"require('./package.json').version\").zip\" && curl -u admin:admin -F file=$SITE_TEMPLATE_ZIP http://localhost:4502/conf/global/site-templates.import.html",
+    "prettier:scss": "prettier --write './theme/src/**/*.scss'",
+    "lint:scss": "stylelint --fix './theme/src/**/*.scss'",
+    "stylefix": "npm run prettier:scss && npm run lint:scss",
+    "postinstall": "husky install"
   },
   "devDependencies": {
-    "@adobe/aem-site-template-builder": "2.0.0"
+    "@adobe/aem-site-template-builder": "2.0.0",
+    "husky": "^5.0.9",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.10.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.1.2"
   },
   "siteTemplate": {
     "title": "Basic AEM Site Template",
@@ -17,5 +30,11 @@
     "docsUrl": "",
     "showcaseUrl": "",
     "sourceRepositoryUrl": "https://github.com/adobe/aem-site-template-basic"
+  },
+  "lint-staged": {
+    "theme/src/**/*.scss": [
+      "stylelint --syntax scss --fix",
+      "git add"
+    ]
   }
 }

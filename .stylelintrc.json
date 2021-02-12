@@ -1,6 +1,6 @@
 {
     "extends": [
-        "stylelint-config-rational-order",
-        "stylelint-prettier/recommended"
+        "stylelint-prettier/recommended",
+        "stylelint-config-rational-order"
     ]
 }

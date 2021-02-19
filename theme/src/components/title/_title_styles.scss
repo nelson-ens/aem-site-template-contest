@@ -1,6 +1,7 @@
 .h1_style {
   .cmp-title {}
   .cmp-title__text {
+    font-family: titleFont, serif;
     font-size: 3em;
     font-weight: lighter;
   }
@@ -10,8 +11,9 @@
 .h2_style {
   .cmp-title {}
   .cmp-title__text {
+    font-family: titleFont, serif;
     font-size: 2.25em;
-    font-weight: bold;
+    font-weight: normal;
   }
   .cmp-title__link {}
 }
@@ -20,7 +22,7 @@
   .cmp-title {}
   .cmp-title__text {
     font-size: 1.75em;
-    font-weight: bold;
+    font-weight: normal;
   }
   .cmp-title__link {}
 }
@@ -29,7 +31,7 @@
   .cmp-title {}
   .cmp-title__text {
     font-size: 1.125em;
-    font-weight: bold;
+    font-weight: normal;
   }
   .cmp-title__link {}
 }
@@ -38,7 +40,7 @@
   .cmp-title {}
   .cmp-title__text {
     font-size: 1em;
-    font-weight: bold;
+    font-weight: normal;
   }
   .cmp-title__link {}
 }
@@ -46,8 +48,10 @@
 .h6_style {
   .cmp-title {}
   .cmp-title__text {
+    color: $grey3;
     font-size: 0.625em;
     font-weight: normal;
+    text-transform: uppercase;
   }
   .cmp-title__link {}
 }

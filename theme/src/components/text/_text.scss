@@ -1,6 +1,42 @@
 .cmp-text {
   margin: 0;
+  font-size: 1em;
+  //font-family: "Source San Pro", sans-serif;
+  font-weight: normal;
+  color: $text;
+  & b {
+    font-weight: bold;
+  }
+  & a {
+    color: $accent;
+    text-decoration: none;
+    &:hover {
+      color: $accent-hover;
+      text-decoration: underline;
+      text-decoration-width: 0.125em;
+      text-decoration-color: $accent-hover;
+      text-decoration-style: solid;
+    }
+    &:focus {
+      padding: 0 0.125em;
+      text-decoration: underline;
+      text-decoration-width: 0.125em;
+      text-decoration-color: $accent;
+      text-decoration-style: solid;
+      border: 0.125em solid $accent;
+      border-radius: 0.25em;
+      //border-spacing: 0.25em;
+      outline: none;
+    }
+  }
+  & blockquote {
+    font-style: italic;
+    font-size: 28px;
+    font-family: titleFont, serif;
+    margin-inline: 0;
+  }
+  & ul li::marker {
+    content: "-  ";
+  }
 }
-.cmp-text__paragraph {
-  margin: 0;
-}
+.cmp-text__paragraph {}

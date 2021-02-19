@@ -1,12 +1,24 @@
 .standard {
-  .cmp-breadcrumb {}
-  .cmp-breadcrumb__list {}
+  .cmp-breadcrumb {
+    margin: 1em 0;
+  }
+  .cmp-breadcrumb__list {
+    //font-family: "Source San Pro", sans-serif;
+    padding-inline-start: 0;
+  }
   .cmp-breadcrumb__item {
     :not(:last-child) {
       :after {
-        content: "\003E";
-        color: $grey2;
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        content: '';
+        mask: url("/content/dam/wireframe_demo/right.svg");
+        mask-size: cover;
+        background-color: $grey2;
         margin: 0 1em;
+        vertical-align: -25%;
+        pointer-events: none;
       }
     }
   }
@@ -16,5 +28,12 @@
   .cmp-breadcrumb__item-link {
     text-decoration: none;
     color: $grey3;
+    &:hover {
+      color: $text;
+    }
+    &:focus {
+      border: 0.125rem solid $accent-focus;
+      border-radius: 0.25em;
+    }
   }
 }

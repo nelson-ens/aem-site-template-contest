@@ -1,10 +1,81 @@
-.cmp-accordion {}
+.cmp-accordion {
+  margin: 0.5em;
+}
 .cmp-accordion__item {}
 .cmp-accordion__header {}
-.cmp-accordion__button {}
-.cmp-accordion__button--expanded {}
-.cmp-accordion__title {}
-.cmp-accordion__icon {}
-.cmp-accordion__panel {}
+
+.cmp-accordion__button {
+  outline: none;
+  border: none;
+  border-bottom: 0.125em solid $grey1;
+  padding: 0.625em 1em;
+  background-color: $color-background;
+  .cmp-accordion__icon {
+    &:after {
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+      content: '';
+      mask: url("/content/dam/wireframe_demo/down.svg");
+      mask-size: cover;
+      background-color: $grey2;
+      margin: 0 1em;
+      vertical-align: -25%;
+    }
+  }
+  &:hover {
+    .cmp-accordion__title {
+      color: $text;
+    }
+    .cmp-accordion__icon {
+      &:after {
+        background-color: $grey3;
+      }
+    }
+  }
+  &:focus {
+    border: 0.125em solid $accent-focus;
+    border-radius: 0.25em;
+    .cmp-accordion__title {
+      color: $text;
+    }
+  }
+}
+
+.cmp-accordion__button--expanded {
+  outline: none;
+  border: none;
+  border-bottom: 0.125em solid $grey1;
+  .cmp-accordion__icon {
+    &:after {
+      mask: url("/content/dam/wireframe_demo/up.svg");
+    }
+  }
+  &:focus {
+    border: none;
+    border-bottom: 0.125rem solid $grey1;
+    border-radius: 0;
+    .cmp-accordion__title {
+      color: $text;
+    }
+  }
+}
+
+.cmp-accordion__title {
+  font-size: 1em;
+  //font-family: "Source San Pro", sans-serif;
+  color: $grey3;
+  font-weight: 300;
+}
+
+.cmp-accordion__icon {
+  float: right;
+}
+
+.cmp-accordion__panel {
+  padding: 0.5em 1em;
+}
+
 .cmp-accordion__panel--expanded {}
+
 .cmp-accordion__panel--hidden {}

@@ -25,6 +25,7 @@
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+    font-family: titleFont, serif;
     font-size: 2.5em;
   }
   .cmp-teaser__title-link {
@@ -46,9 +47,7 @@
   }
   .cmp-teaser__action-link:first-child {
     background-color: $accent;
-    border-color: $accent;
-    border-style: solid;
-    border-width: 0.125em;
+    border: 0.125em solid $accent;
 
     &:hover {
       background-color: $accent-hover;
@@ -67,9 +66,7 @@
   }
   .cmp-teaser__action-link:not(:first-child) {
     background-color: rgba(0, 0, 0, 0);
-    border-color: $color-background;
-    border-style: solid;
-    border-width: 0.125em;
+    border: 0.125em solid $color-background;
     color: $text-on-background;
 
     &:hover {
@@ -80,9 +77,7 @@
       outline: none;
       box-shadow: 0 0 0 0.125em $accent-focus;
       background-color: $grey4;
-      border-color: $color-background;
-      border-style: solid;
-      border-width: 0.125em;
+      border: 0.125em solid $color-background;
       color: $text-on-background;
     }
     &:disabled {

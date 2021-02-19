@@ -4,7 +4,6 @@
 .experiencefragment.header {
     padding: 1.5625em 0;
     border-bottom: 0.125em solid $grey1;
-    //font-family: "Source San Pro", sans-serif;
 
     .cmp-image {
         width: fit-content;
@@ -18,8 +17,6 @@
     //=================== Grid layout ===================
 
     .cmp-container {
-        //display: grid;
-        //grid-template-columns: 1fr 2fr 1fr 1fr;
         display: flex;
     }
 
@@ -64,6 +61,7 @@
             top: 2.5em;
             width: max-content;
             border-radius: 0.25em;
+            overflow: hidden;
             background: $color-background;
             box-shadow: 0 0.25em 0.5em 0.2em $color-shadow;
         }
@@ -159,6 +157,7 @@
         top: 2.5em;
         width: max-content;
         border-radius: 0.25em;
+        overflow: hidden;
         background: $color-background;
         box-shadow: 0 0.25em 0.5em 0.2em $color-shadow;
     }
@@ -167,7 +166,6 @@
         &:not(.cmp-languagenavigation__item--active) {
             &:hover {
                 background-color: $grey1;
-                border-radius: inherit;
             }
         }
     }

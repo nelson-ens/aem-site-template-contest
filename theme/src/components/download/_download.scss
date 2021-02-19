@@ -5,7 +5,6 @@
   border-radius: 0.25em;
   margin: 0.5em;
   padding: 1.5em;
-  //font-family: "Source San Pro", sans-serif;
 }
 .cmp-download__title {}
 .cmp-download__title-link {
@@ -59,9 +58,6 @@
     outline: none;
     background-color: $accent-focus;
     border-radius: 1.56em;
-    //border-style: solid;
-    //border-width: 0.125em;
-    //border-color: $color-background;
     border: 0.125em solid $color-background;
     box-shadow: 0 0 0 0.125em $accent-focus;
   }

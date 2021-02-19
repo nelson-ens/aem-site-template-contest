@@ -1,7 +1,6 @@
 .cmp-form-options {
   border: none;
   display: grid;
-  //font-family: "Source San Pro", sans-serif;
 }
 
 // == hide legend and help message
@@ -22,24 +21,100 @@
 }
 
 // == drop down
-// TODO: fix option tag styles
+.cmp-form-options--drop-down {
+  padding: 0;
+  margin: 0.5em;
+  position: relative;
+}
+
 .cmp-form-options__field--drop-down {
+  display: none;
+}
+
+.select-selected {
+  color: $grey4;
   background-color: $color-background;
-  border-color: $grey2;
-  border-width: 0.125em;
+  padding: 0.78em 1em;
   border-radius: 0.25em;
-  padding: 0.625em 1em;
-  &:active {
-    border-color: $accent-hover;
+  border: 0.0625em solid $grey2;
+  cursor: pointer;
+  &:after {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    content: '';
+    mask: url("/content/dam/wireframe_demo/down.svg");
+    mask-size: cover;
+    background-color: $grey2;
+    margin: 0;
+    float: right;
+    vertical-align: -25%;
   }
-  & option {
-    &:active {
-      background-color: $accent;
-      color: $text-on-background;
+  &:hover {
+    border-width: 0.125em;
+    &:after {
+      background-color: $grey3;
     }
+  }
+}
+
+.select-arrow-active {
+  border-width: 0.125em;
+  :after {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    content: '';
+    mask: url("/content/dam/wireframe_demo/up.svg");
+    mask-size: cover;
+    background-color: $grey3;
+    margin: 0;
+    float: right;
+    vertical-align: -25%;
+  }
+}
+
+.select-items {
+  position: absolute;
+  background-color: $color-background;
+  margin-top: 0.5em;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-radius: 0.25em;
+  overflow: hidden;
+  box-shadow: 0 0.25em 0.5em 0.2em $color-shadow;
+}
+
+.select-hide {
+  display: none;
+}
+
+.select-items div {
+  padding: 0.78em 1em;
+  cursor: pointer;
+  &:not(.same-as-selected) {
     &:hover {
       background-color: $grey1;
     }
+  }
+}
+
+.same-as-selected {
+  color: $text-on-background;
+  background-color: $accent;
+  &::after {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    content: '';
+    mask: url("/content/dam/wireframe_demo/checkmark.svg");
+    mask-size: cover;
+    background-color: $text-on-background;
+    float: right;
+    margin-right: 0.5em;
+    vertical-align: -25%;
   }
 }
 

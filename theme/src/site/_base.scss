@@ -4,7 +4,6 @@
 @mixin fontface($name, $file, $weight: normal, $style: normal){
     @font-face {
         font-family: "#{$name}";
-        //src: url('../resources/fonts/#{$file}.ttf');
         src: url('../resources/fonts/#{$file}.ttf') format('truetype');
         font-weight: $weight;
         font-style: $style;

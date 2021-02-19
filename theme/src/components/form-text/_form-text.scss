@@ -1,11 +1,11 @@
 .cmp-form-text {
   display: grid;
   margin: 0.5em 0.5em;
-  //font-family: "Source San Pro", sans-serif;
   & label {
     font-size: 0.625em;
     color: $grey3;
     margin-bottom: 0.5em;
+    text-transform: uppercase;
   }
 }
 .cmp-form-text__help-block {}

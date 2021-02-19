@@ -2,25 +2,106 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2021-02-18T05:54:50.601Z"
+        cq:lastModifiedBy="Leo Shang"
         cq:tags="[]"
-        cq:template="/conf/aem-site-template-basic/settings/wcm/templates/xf-web-variation"
+        cq:template="/conf/wireframe_demo/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
         jcr:title="Footer"
         sling:resourceType="cq/experience-fragments/components/xfpage">
         <root
+            jcr:lastModified="{Date}2021-02-18T03:44:40.305Z"
+            jcr:lastModifiedBy="Leo Shang"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container"
             layout="responsiveGrid">
             <separator
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/separator/v1/separator"/>
-            <text
+            <image
+                jcr:created="{Date}2021-02-10T09:28:25.993Z"
+                jcr:createdBy="Leo Shang"
+                jcr:lastModified="{Date}2021-02-10T09:30:57.925Z"
+                jcr:lastModifiedBy="Leo Shang"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/image/v2/image"
+                fileReference="/content/dam/wireframe_demo/Group 3458@2x.png">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="1"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+            </image>
+            <title
+                cq:styleIds="[1612988098073]"
+                jcr:created="{Date}2021-02-18T05:35:26.862Z"
+                jcr:createdBy="Leo Shang"
+                jcr:lastModified="{Date}2021-02-18T05:35:38.568Z"
+                jcr:lastModifiedBy="Leo Shang"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="© Company Name Address Ave, City Name, State ZIP"
+                sling:resourceType="core/wcm/components/title/v2/title"
+                type="h6">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="7"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+            </title>
+            <text_835927192
+                cq:styleIds="[1612907922119]"
+                jcr:created="{Date}2021-02-10T09:28:42.574Z"
+                jcr:createdBy="Leo Shang"
+                jcr:lastModified="{Date}2021-02-10T09:32:11.170Z"
+                jcr:lastModifiedBy="Leo Shang"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/text/v2/text"
-                text="&lt;p>Copyright 2020, My Site.&amp;nbsp;All rights reserved.&lt;/p>&#xd;&#xa;&lt;p>345 Park Avenue,&amp;nbsp;San Jose, CA 95110-2704, USA&lt;/p>&#xd;&#xa;"
-                textIsRich="true"/>
+                text="&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>Term of Use&lt;/a>&lt;/p>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="1"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="5"/>
+                </cq:responsive>
+            </text_835927192>
+            <text_626570102
+                cq:styleIds="[1612907922119]"
+                jcr:created="{Date}2021-02-10T09:28:54.400Z"
+                jcr:createdBy="Leo Shang"
+                jcr:lastModified="{Date}2021-02-10T09:32:31.293Z"
+                jcr:lastModifiedBy="Leo Shang"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/text/v2/text"
+                text="&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>Privacy Policy&lt;/a>&lt;/p>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="1"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="5"/>
+                </cq:responsive>
+            </text_626570102>
         </root>
     </jcr:content>
 </jcr:root>

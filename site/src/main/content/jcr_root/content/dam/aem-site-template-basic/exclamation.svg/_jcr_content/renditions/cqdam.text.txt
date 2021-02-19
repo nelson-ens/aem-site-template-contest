@@ -1,0 +1,1 @@
+   .a,.b{fill:#d7373f;}.a{opacity:0;}   

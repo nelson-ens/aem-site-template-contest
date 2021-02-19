@@ -2,10 +2,34 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
-        cq:conf="/conf/aem-site-template-basic"
+        cq:conf="/conf/wireframe_demo"
         jcr:primaryType="nt:unstructured"
-        jcr:title="My Site">
+        jcr:title="Wireframe_Demo">
         <folderThumbnail/>
     </jcr:content>
     <asset.jpg/>
+    <Image_x0040_2x.png/>
+    <Group_x0020_3458_x0040_2x.png/>
+    <building_large.png/>
+    <up.svg/>
+    <down.svg/>
+    <left.svg/>
+    <right.svg/>
+    <arrow-down.svg/>
+    <exclamation.svg/>
+    <checkmark.svg/>
+    <search.svg/>
+    <denmark.svg/>
+    <italy.svg/>
+    <ireland.svg/>
+    <portugal.svg/>
+    <germany.svg/>
+    <france.svg/>
+    <romania.svg/>
+    <russia.svg/>
+    <sweden.svg/>
+    <spain.svg/>
+    <turkey.svg/>
+    <united-kingdom.svg/>
+    <united-states-of-america.svg/>
 </jcr:root>

@@ -1,28 +1,29 @@
 .cmp-download {
   width: fit-content;
   height: fit-content;
-  border: 0.125em solid $grey2;
-  border-radius: 0.25em;
   margin: 0.5em;
   padding: 1.5em;
+  border: 0.125em solid $grey2;
+  border-radius: 0.25em;
 }
-.cmp-download__title {}
+.cmp-download__title {
+}
 .cmp-download__title-link {
-  font-size: 1.125em;
-  font-weight: normal;
-  text-decoration: none;
   color: $text;
+  font-weight: normal;
+  font-size: 1.125em;
+  text-decoration: none;
 }
 .cmp-download__description {
-  font-size: 1em;
-  font-weight: lighter;
   color: $text;
+  font-weight: lighter;
+  font-size: 1em;
 }
 .cmp-download__properties {
-  font-size: 0.625em;
-  font-weight: normal;
-  color: $grey3;
   display: flex;
+  color: $grey3;
+  font-weight: normal;
+  font-size: 0.625em;
   & div {
     float: left;
     & dd {
@@ -30,11 +31,13 @@
     }
   }
 }
-.cmp-download__property {}
+.cmp-download__property {
+}
 .cmp-download__property-label {
   display: none;
 }
-.cmp-download__property-content {}
+.cmp-download__property-content {
+}
 .cmp-download__property--filename {
   display: none;
 }
@@ -46,33 +49,33 @@
   text-transform: uppercase;
 }
 .cmp-download__action {
-  background-color: $accent;
-  border-radius: 1.56em;
   padding: 0.5em 1em;
   text-decoration: none;
+  background-color: $accent;
+  border-radius: 1.56em;
   &:hover {
     background-color: $accent-hover;
     border-color: $accent-hover;
   }
   &:focus {
-    outline: none;
     background-color: $accent-focus;
-    border-radius: 1.56em;
     border: 0.125em solid $color-background;
+    border-radius: 1.56em;
+    outline: none;
     box-shadow: 0 0 0 0.125em $accent-focus;
   }
 }
 .cmp-download__action-text {
   color: $text-on-background;
   &:before {
+    display: inline-block;
     width: 24px;
     height: 24px;
-    display: inline-block;
-    content: '';
-    mask: url("/content/dam/wireframe_demo/arrow-down.svg");
-    mask-size: cover;
-    background-color: $text-on-background;
     margin-right: 0.625em;
     vertical-align: -25%;
+    background-color: $text-on-background;
+    content: "";
+    mask: url("/content/dam/aem-site-template-basic/arrow-down.svg");
+    mask-size: cover;
   }
 }

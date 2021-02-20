@@ -5,7 +5,7 @@
         cq:cloudserviceconfigs="[/etc/cloudservices/proxy/ids]"
         cq:lastModified="{Date}2021-02-19T23:10:21.578Z"
         cq:lastModifiedBy="Leo Shang"
-        cq:template="/conf/wireframe_demo/settings/wcm/templates/article-page"
+        cq:template="/conf/aem-site-template-basic/settings/wcm/templates/article-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Article"
         sling:resourceType="core/wcm/components/page/v2/page"
@@ -47,7 +47,7 @@
                         jcr:title="Symphony in Steel by Tobias Keller"
                         sling:resourceType="core/wcm/components/image/v2/image"
                         displayPopupTitle="false"
-                        fileReference="/content/dam/wireframe_demo/building_large.png"
+                        fileReference="/content/dam/aem-site-template-basic/building_large.png"
                         isDecorative="true"
                         titleValueFromDAM="false">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -125,7 +125,7 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/wireframe_demo/building_large.png"
+                        fileReference="/content/dam/aem-site-template-basic/building_large.png"
                         pretitle="Teasers"
                         textIsRich="true"
                         titleFromPage="false">
@@ -158,7 +158,7 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/wireframe_demo/building_large.png"
+                        fileReference="/content/dam/aem-site-template-basic/building_large.png"
                         pretitle="Teasers"
                         textIsRich="true"
                         titleFromPage="false">

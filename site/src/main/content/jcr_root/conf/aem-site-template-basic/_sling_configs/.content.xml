@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-          jcr:primaryType="nt:unstructured">
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="nt:unstructured">
+    <rep:policy/>
     <com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
+        jcr:lastModified="{Binary}"
+        jcr:lastModifiedBy="theme-update-service"
         jcr:primaryType="nt:unstructured"
-        prefixPath="/content/aem-site-template-basic.theme/_default">
+        prefixPath="/content/aem-site-template-basic.theme/42162433">
         <css
             jcr:primaryType="nt:unstructured"
             element="link"
@@ -12,8 +16,7 @@
                 jcr:primaryType="nt:unstructured"
                 href="/css/theme.css"
                 rel="stylesheet"
-                type="text/css"
-            />
+                type="text/css"/>
         </css>
         <javascript
             jcr:primaryType="nt:unstructured"
@@ -22,16 +25,19 @@
             <attributes
                 jcr:primaryType="nt:unstructured"
                 src="/js/theme.js"
-                type="text/javascript"
-            />
+                type="text/javascript"/>
         </javascript>
     </com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig>
     <com.adobe.cq.wcm.core.components.internal.DataLayerConfig
         jcr:primaryType="nt:unstructured"
-        enabled="{Boolean}true"
-    />
+        enabled="{Boolean}true"/>
     <com.adobe.cq.wcm.core.components.internal.services.pdfviewer.PdfViewerCaConfig
         jcr:primaryType="nt:unstructured"
         clientId="28b07c6be4d544f188dc2f36e33b196b"
         reportSuiteId=""/>
+    <com.adobe.aem.wcm.site.manager.config.SiteConfig
+        jcr:primaryType="nt:unstructured"
+        githubTokenEncrypted="\{e52073b801cf9bf103067f2139088f72e6b9f67292103104dfca7521ab8d96633b770bb7620a0cad84e89f83fbafbd8975b7fdc846cde22c118d7fe2684ea48d}"
+        githubUrl="https://github.com/Leo-Shang-Ensemble/Wireframe_theme_source"
+        siteTemplatePath="/conf/global/site-templates/aem-site-template-basic-4.0.2"/>
 </jcr:root>

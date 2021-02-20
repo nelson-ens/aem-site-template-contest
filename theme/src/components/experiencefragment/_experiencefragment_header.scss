@@ -1,243 +1,238 @@
-
 //== XF Header style, used on page template
 
 .experiencefragment.header {
-    padding: 1.5625em 0;
-    border-bottom: 0.125em solid $grey1;
+  padding: 1.5625em 0;
+  border-bottom: 0.125em solid $grey1;
 
-    .cmp-image {
-        width: fit-content;
-        height: fit-content;
-        padding: 0.5em 0.5em;
-    }
-    .cmp-image__image {
-        max-width: 9.2em;
-    }
+  .cmp-image {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5em 0.5em;
+  }
+  .cmp-image__image {
+    max-width: 9.2em;
+  }
 
-    //=================== Grid layout ===================
+  //=================== Grid layout ===================
 
-    .cmp-container {
-        display: flex;
-    }
+  .cmp-container {
+    display: flex;
+  }
 
+  //=================== Navigation ===================
 
-    //=================== Navigation ===================
+  .cmp-navigation {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+  }
 
-    .cmp-navigation {
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-    }
-
-    .cmp-navigation__group {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-    }
-    .cmp-navigation__item--level-0 {
-        position: relative;
-        display: inline-flex;
-        padding: 0.5em 1em;
-        margin-left: 0.5em;
-        &:hover {
-            & > .cmp-navigation__item-link {
-                color: $text;
-            }
-        }
-        &:focus {
-            outline: none;
-            border: 0.125em solid $accent-focus;
-            border-radius: 0.25em;
-            .cmp-navigation__item-link {
-                color: $text;
-            }
-        }
-        & > .cmp-navigation__group {
-            visibility: collapse;
-            z-index: 1;
-            position: absolute;
-            display: grid;
-            top: 2.5em;
-            width: max-content;
-            border-radius: 0.25em;
-            overflow: hidden;
-            background: $color-background;
-            box-shadow: 0 0.25em 0.5em 0.2em $color-shadow;
-        }
-        // TODO: keep in active state
-        &:hover {
-            & > .cmp-navigation__group {
-                visibility: visible;
-            }
-        }
-    }
-    .cmp-navigation__item--level-0:nth-child(2) {
-        &:after {
-            pointer-events: none;
-            width: 24px;
-            height: 24px;
-            display: inline-block;
-            content: '';
-            mask: url("/content/dam/wireframe_demo/down.svg");
-            mask-size: cover;
-            background-color: $grey2;
-            margin: 0 0 0 1em;
-            vertical-align: -25%;
-        }
-        &:hover {
-            &:after {
-                mask: url("/content/dam/wireframe_demo/up.svg");
-                background-color: $grey3;
-            }
-        }
-        & .cmp-navigation__group .cmp-navigation__item {
-            padding: 0.56em 2em 0.56em 1em;
-            &:hover {
-                background-color: $grey1;
-                & a {
-                    color: $text;
-                }
-            }
-        }
-    }
-    .cmp-navigation__item-link {
-        display: block;
-        color: $grey4;
-        text-decoration: none;
-    }
-    .cmp-navigation__item--active > .cmp-navigation__item-link {}
-
-
-    //=================== Language Navigation ===================
-
-    .cmp-languagenavigation {
-        margin: 0 0.5em;
-        position: relative;
-
-        &:before {
-            width: 24px;
-            height: 24px;
-            display: inline-block;
-            content: url("/content/dam/wireframe_demo/united-kingdom.svg");
-            vertical-align: -40%;
-        }
-        &:after {
-            width: 24px;
-            height: 24px;
-            display: inline-block;
-            content: '';
-            mask: url("/content/dam/wireframe_demo/down.svg");
-            mask-size: cover;
-            background-color: $grey2;
-            //margin-left: 4.5em;
-            vertical-align: -40%;
-        }
-        &:hover {
-            &:after {
-                mask: url("/content/dam/wireframe_demo/up.svg");
-                background-color: $grey3;
-            }
-
-            > .cmp-languagenavigation__group {
-                visibility: visible;
-                transition-delay: 0s;
-            }
-        }
-    }
-    .cmp-languagenavigation__group {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        visibility: hidden;
-        z-index: 1;
-        transition-delay: .5s;
-        position: absolute;
-        display: grid;
-        top: 2.5em;
-        width: max-content;
-        border-radius: 0.25em;
-        overflow: hidden;
-        background: $color-background;
-        box-shadow: 0 0.25em 0.5em 0.2em $color-shadow;
-    }
-    .cmp-languagenavigation__item {
-        padding: 0.56em 1em;
-        &:not(.cmp-languagenavigation__item--active) {
-            &:hover {
-                background-color: $grey1;
-            }
-        }
-    }
-    .cmp-languagenavigation__item-link {
-        text-decoration: none;
-        font-size: 1em;
+  .cmp-navigation__group {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .cmp-navigation__item--level-0 {
+    position: relative;
+    display: inline-flex;
+    margin-left: 0.5em;
+    padding: 0.5em 1em;
+    &:hover {
+      & > .cmp-navigation__item-link {
         color: $text;
-        font-weight: normal;
+      }
     }
-    .cmp-languagenavigation__item--active {
-        background-color: $accent;
-        & > .cmp-languagenavigation__item-link {
-            color: $text-on-background;
-            font-weight: normal;
-        }
-        &::after {
-            width: 24px;
-            height: 24px;
-            display: inline-block;
-            content: '';
-            mask: url("/content/dam/wireframe_demo/checkmark.svg");
-            mask-size: cover;
-            background-color: $color-background;
-            margin-left: 4em;
-            vertical-align: -25%;
-        }
+    &:focus {
+      border: 0.125em solid $accent-focus;
+      border-radius: 0.25em;
+      outline: none;
+      .cmp-navigation__item-link {
+        color: $text;
+      }
     }
-
-
-
-    //=================== Search ===================
-
-    .cmp-search__field {
-        display: flex;
+    & > .cmp-navigation__group {
+      position: absolute;
+      top: 2.5em;
+      z-index: 1;
+      display: grid;
+      width: max-content;
+      overflow: hidden;
+      background: $color-background;
+      border-radius: 0.25em;
+      box-shadow: 0 0.25em 0.5em 0.2em $color-shadow;
+      visibility: collapse;
     }
-    .cmp-search__input {
-        margin: 0 0.5em;
-        color: $grey3;
+    // TODO: keep in active state
+    &:hover {
+      & > .cmp-navigation__group {
+        visibility: visible;
+      }
+    }
+  }
+  .cmp-navigation__item--level-0:nth-child(2) {
+    &:after {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      margin: 0 0 0 1em;
+      vertical-align: -25%;
+      background-color: $grey2;
+      content: "";
+      pointer-events: none;
+      mask: url("/content/dam/aem-site-template-basic/down.svg");
+      mask-size: cover;
+    }
+    &:hover {
+      &:after {
+        mask: url("/content/dam/aem-site-template-basic/up.svg");
+        background-color: $grey3;
+      }
+    }
+    & .cmp-navigation__group .cmp-navigation__item {
+      padding: 0.56em 2em 0.56em 1em;
+      &:hover {
         background-color: $grey1;
-        border-radius: 0.25em;
-        border: 0.125em solid $grey1;
-        &::placeholder {
-            color: $grey3;
+        & a {
+          color: $text;
         }
-
-        &:hover {
-            background-color: $color-background;
-        }
-        &:focus {
-            outline: none;
-            border-color: $accent-focus;
-        }
-        &:active {
-            outline: none;
-            border-color: $accent-hover;
-        }
+      }
     }
-    .cmp-search__icon {
-        background-image: url("/content/dam/wireframe_demo/search.svg");
-        width: 24px;
-        height: 24px;
-        left: 0.8em;
-        top: 0.5em;
+  }
+  .cmp-navigation__item-link {
+    display: block;
+    color: $grey4;
+    text-decoration: none;
+  }
+  .cmp-navigation__item--active > .cmp-navigation__item-link {
+  }
+
+  //=================== Language Navigation ===================
+
+  .cmp-languagenavigation {
+    position: relative;
+    margin: 0 0.5em;
+
+    &:before {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      vertical-align: -40%;
+      content: url("/content/dam/aem-site-template-basic/united-kingdom.svg");
     }
-    .cmp-search__clear-icon {
-        display: none;
+    &:after {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      //margin-left: 4.5em;
+      vertical-align: -40%;
+      background-color: $grey2;
+      content: "";
+      mask: url("/content/dam/aem-site-template-basic/down.svg");
+      mask-size: cover;
+    }
+    &:hover {
+      &:after {
+        background-color: $grey3;
+        mask: url("/content/dam/aem-site-template-basic/up.svg");
+      }
+
+      > .cmp-languagenavigation__group {
+        visibility: visible;
+        transition-delay: 0s;
+      }
+    }
+  }
+  .cmp-languagenavigation__group {
+    position: absolute;
+    top: 2.5em;
+    z-index: 1;
+    display: grid;
+    width: max-content;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    background: $color-background;
+    border-radius: 0.25em;
+    box-shadow: 0 0.25em 0.5em 0.2em $color-shadow;
+    visibility: hidden;
+    transition-delay: 0.5s;
+  }
+  .cmp-languagenavigation__item {
+    padding: 0.56em 1em;
+    &:not(.cmp-languagenavigation__item--active) {
+      &:hover {
+        background-color: $grey1;
+      }
+    }
+  }
+  .cmp-languagenavigation__item-link {
+    color: $text;
+    font-weight: normal;
+    font-size: 1em;
+    text-decoration: none;
+  }
+  .cmp-languagenavigation__item--active {
+    background-color: $accent;
+    & > .cmp-languagenavigation__item-link {
+      color: $text-on-background;
+      font-weight: normal;
+    }
+    &::after {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      margin-left: 4em;
+      vertical-align: -25%;
+      background-color: $color-background;
+      content: "";
+      mask: url("/content/dam/aem-site-template-basic/checkmark.svg");
+      mask-size: cover;
+    }
+  }
+
+  //=================== Search ===================
+
+  .cmp-search__field {
+    display: flex;
+  }
+  .cmp-search__input {
+    margin: 0 0.5em;
+    color: $grey3;
+    background-color: $grey1;
+    border: 0.125em solid $grey1;
+    border-radius: 0.25em;
+    &::placeholder {
+      color: $grey3;
     }
 
-    //== XF Content Fix
-
-    .xf-content-height {
-        min-height: auto;
+    &:hover {
+      background-color: $color-background;
     }
+    &:focus {
+      border-color: $accent-focus;
+      outline: none;
+    }
+    &:active {
+      border-color: $accent-hover;
+      outline: none;
+    }
+  }
+  .cmp-search__icon {
+    top: 0.5em;
+    left: 0.8em;
+    width: 24px;
+    height: 24px;
+    background-image: url("/content/dam/aem-site-template-basic/search.svg");
+  }
+  .cmp-search__clear-icon {
+    display: none;
+  }
 
+  //== XF Content Fix
+
+  .xf-content-height {
+    min-height: auto;
+  }
 }

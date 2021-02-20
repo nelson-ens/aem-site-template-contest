@@ -8,16 +8,16 @@
   .cmp-breadcrumb__item {
     :not(:last-child) {
       :after {
+        display: inline-block;
         width: 24px;
         height: 24px;
-        display: inline-block;
-        content: '';
-        mask: url("/content/dam/wireframe_demo/right.svg");
-        mask-size: cover;
-        background-color: $grey2;
         margin: 0 1em;
         vertical-align: -25%;
+        background-color: $grey2;
+        content: "";
         pointer-events: none;
+        mask: url("/content/dam/aem-site-template-basic/right.svg");
+        mask-size: cover;
       }
     }
   }
@@ -25,8 +25,8 @@
     color: $text;
   }
   .cmp-breadcrumb__item-link {
-    text-decoration: none;
     color: $grey3;
+    text-decoration: none;
     &:hover {
       color: $text;
     }

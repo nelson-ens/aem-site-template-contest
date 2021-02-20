@@ -10,7 +10,6 @@
         dam:processingRequestedDate="{Date}2021-02-05T23:49:20.500Z"
         dam:runPostProcess="{Boolean}true"
         jcr:lastModified="{Date}2021-02-05T23:49:35.487Z"
-        jcr:lastModifiedBy="Leo Shang"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
@@ -185,10 +184,6 @@
                     isCustom="{Boolean}false"
                     name="background"/>
             </predictedTags>
-            <imageFeatures
-                jcr:lastModified="{Date}2021-02-05T23:49:35.412Z"
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
         <usages

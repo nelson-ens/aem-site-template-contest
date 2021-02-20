@@ -183,10 +183,6 @@
                     isCustom="{Boolean}false"
                     name="groceries"/>
             </predictedTags>
-            <imageFeatures
-                jcr:lastModified="{Date}2021-02-06T00:05:05.418Z"
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
         <usages

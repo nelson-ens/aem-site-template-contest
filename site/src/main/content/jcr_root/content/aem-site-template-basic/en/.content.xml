@@ -4,8 +4,6 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2021-02-09T17:42:21.886Z"
-        cq:lastModifiedBy="Leo Shang"
         cq:redirectTarget="/content/aem-site-template-basic/en/home"
         cq:template="/conf/aem-site-template-basic/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"

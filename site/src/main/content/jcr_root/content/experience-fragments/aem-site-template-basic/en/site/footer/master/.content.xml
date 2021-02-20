@@ -2,8 +2,6 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-02-18T05:54:50.601Z"
-        cq:lastModifiedBy="Leo Shang"
         cq:tags="[]"
         cq:template="/conf/aem-site-template-basic/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -12,8 +10,6 @@
         jcr:title="Footer"
         sling:resourceType="cq/experience-fragments/components/xfpage">
         <root
-            jcr:lastModified="{Date}2021-02-18T03:44:40.305Z"
-            jcr:lastModifiedBy="Leo Shang"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container"
             layout="responsiveGrid">
@@ -21,10 +17,6 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/separator/v1/separator"/>
             <image
-                jcr:created="{Date}2021-02-10T09:28:25.993Z"
-                jcr:createdBy="Leo Shang"
-                jcr:lastModified="{Date}2021-02-10T09:30:57.925Z"
-                jcr:lastModifiedBy="Leo Shang"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/image/v2/image"
                 fileReference="/content/dam/aem-site-template-basic/Group 3458@2x.png">
@@ -41,10 +33,6 @@
             </image>
             <title
                 cq:styleIds="[1612988098073]"
-                jcr:created="{Date}2021-02-18T05:35:26.862Z"
-                jcr:createdBy="Leo Shang"
-                jcr:lastModified="{Date}2021-02-18T05:35:38.568Z"
-                jcr:lastModifiedBy="Leo Shang"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="© Company Name Address Ave, City Name, State ZIP"
                 sling:resourceType="core/wcm/components/title/v2/title"
@@ -62,10 +50,6 @@
             </title>
             <text_835927192
                 cq:styleIds="[1612907922119]"
-                jcr:created="{Date}2021-02-10T09:28:42.574Z"
-                jcr:createdBy="Leo Shang"
-                jcr:lastModified="{Date}2021-02-10T09:32:11.170Z"
-                jcr:lastModifiedBy="Leo Shang"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/text/v2/text"
                 text="&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>Term of Use&lt;/a>&lt;/p>&#xd;&#xa;"
@@ -83,10 +67,6 @@
             </text_835927192>
             <text_626570102
                 cq:styleIds="[1612907922119]"
-                jcr:created="{Date}2021-02-10T09:28:54.400Z"
-                jcr:createdBy="Leo Shang"
-                jcr:lastModified="{Date}2021-02-10T09:32:31.293Z"
-                jcr:lastModifiedBy="Leo Shang"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/text/v2/text"
                 text="&lt;p>&lt;a href=&quot;https://www.adobe.com&quot;>Privacy Policy&lt;/a>&lt;/p>&#xd;&#xa;"

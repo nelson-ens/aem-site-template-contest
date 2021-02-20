@@ -3,8 +3,6 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-02-09T18:22:37.524Z"
-        cq:lastModifiedBy="Leo Shang"
         cq:template="/conf/aem-site-template-basic/settings/wcm/templates/article-page1"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="core/wcm/components/page/v2/page">
@@ -17,23 +15,13 @@
                 sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/aem-site-template-basic/en/site/header/master"/>
             <container
-                jcr:lastModified="{Date}2021-02-06T00:19:06.167Z"
-                jcr:lastModifiedBy="Leo Shang"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/container/v1/container"
                 layout="responsiveGrid">
                 <breadcrumb
-                    jcr:created="{Date}2021-02-09T17:46:52.594Z"
-                    jcr:createdBy="Leo Shang"
-                    jcr:lastModified="{Date}2021-02-09T17:46:52.594Z"
-                    jcr:lastModifiedBy="Leo Shang"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/breadcrumb/v2/breadcrumb"/>
                 <title
-                    jcr:created="{Date}2021-02-06T00:20:15.443Z"
-                    jcr:createdBy="Leo Shang"
-                    jcr:lastModified="{Date}2021-02-06T00:20:15.443Z"
-                    jcr:lastModifiedBy="Leo Shang"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/title/v2/title">
                     <cq:responsive jcr:primaryType="nt:unstructured">
@@ -44,10 +32,6 @@
                     </cq:responsive>
                 </title>
                 <container
-                    jcr:created="{Date}2021-02-06T00:19:13.901Z"
-                    jcr:createdBy="Leo Shang"
-                    jcr:lastModified="{Date}2021-02-08T09:45:57.980Z"
-                    jcr:lastModifiedBy="Leo Shang"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                     editable="{Boolean}true">

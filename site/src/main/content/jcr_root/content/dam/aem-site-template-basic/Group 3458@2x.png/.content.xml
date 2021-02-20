@@ -9,8 +9,6 @@
         dam:processingRenditions="[cq5dam.thumbnail.140.100.png,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.json,cqdam.metadata.xml,cq5dam.thumbnail.48.48.png,cqdam.text.txt,cq5dam.thumbnail.319.319.png]"
         dam:processingRequestedDate="{Date}2021-02-06T00:04:54.859Z"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2021-02-06T00:05:05.470Z"
-        jcr:lastModifiedBy="Leo Shang"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"

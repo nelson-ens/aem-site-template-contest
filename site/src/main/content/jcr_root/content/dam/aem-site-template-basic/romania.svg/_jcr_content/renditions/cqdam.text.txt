@@ -1,1 +1,0 @@
-   .a{fill:#ffda44;}.b{fill:#d80027;}.c{fill:#0052b4;}   

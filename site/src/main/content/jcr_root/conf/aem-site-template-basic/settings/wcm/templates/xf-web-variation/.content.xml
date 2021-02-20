@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2021-02-18T05:36:08.609Z"
         cq:lastModifiedBy="Leo Shang"
-        cq:templateType="/conf/wireframe_demo/settings/wcm/template-types/xf"
+        cq:templateType="/conf/aem-site-template-basic/settings/wcm/template-types/xf"
         jcr:description="My Site Experience Fragment Template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Web Variation"

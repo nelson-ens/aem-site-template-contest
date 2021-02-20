@@ -5,7 +5,7 @@
         cq:deviceGroups="[mobile/groups/responsive]"
         cq:lastModified="{Date}2021-02-18T18:29:41.534Z"
         cq:lastModifiedBy="Leo Shang"
-        cq:template="/conf/wireframe_demo/settings/wcm/templates/page-content"
+        cq:template="/conf/aem-site-template-basic/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="core/wcm/components/page/v2/page">
         <root
@@ -15,7 +15,7 @@
             <experiencefragment-header
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/wireframe_demo/en/site/header/master">
+                fragmentVariationPath="/content/experience-fragments/aem-site-template-basic/en/site/header/master">
                 <cq:responsive jcr:primaryType="nt:unstructured">
                     <default
                         jcr:primaryType="nt:unstructured"
@@ -45,7 +45,7 @@
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/wireframe_demo/Image@2x.png"
+                        fileReference="/content/dam/aem-site-template-basic/Image@2x.png"
                         pretitle="Teasers"
                         textIsRich="true"
                         titleFromPage="false">
@@ -81,7 +81,7 @@
             <experiencefragment-footer
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/wireframe_demo/en/site/footer/master"/>
+                fragmentVariationPath="/content/experience-fragments/aem-site-template-basic/en/site/footer/master"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

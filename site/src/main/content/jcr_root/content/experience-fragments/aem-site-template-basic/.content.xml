@@ -3,6 +3,5 @@
     cq:adobeTargetExportFormat="html"
     cq:allowedTemplates="[/conf/aem-site-template-basic/settings/wcm/templates/(?!page-).*]"
     jcr:primaryType="sling:OrderedFolder"
-    jcr:title="My Site">
-    <en/>
+    jcr:title="My Site Fragments">
 </jcr:root>

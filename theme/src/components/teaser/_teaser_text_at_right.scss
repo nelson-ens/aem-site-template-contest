@@ -1,0 +1,26 @@
+.textAtRight {
+  .cmp-teaser {
+    margin: 0.3em;
+    display: flex;
+  }
+  .cmp-teaser__image {
+    flex: 3;
+    & img {
+      height: 22em;
+      object-fit: cover;
+    }
+  }
+  .cmp-teaser__content {
+    flex: 2;
+    margin: 0;
+    padding: 1.25em;
+  }
+  .cmp-teaser__pretitle {}
+  .cmp-teaser__title {}
+  .cmp-teaser__title-link {
+    font-size: 1.75em;
+  }
+  .cmp-teaser__description {}
+  .cmp-teaser__action-container {}
+  .cmp-teaser__action-link {}
+}

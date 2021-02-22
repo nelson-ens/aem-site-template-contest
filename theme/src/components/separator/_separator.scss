@@ -1,2 +1,7 @@
 .cmp-separator {}
-.cmp-separator__horizontal-rule {}
+.cmp-separator__horizontal-rule {
+  border: none;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  background-color: $grey-bar;
+}

@@ -1,1 +1,25 @@
-.cmp-form-button {}
+.cmp-form-button {
+  width: fit-content;
+  height: fit-content;
+  float: right;
+  color: $text-on-background;
+  background-color: $accent;
+  border: 0.125em solid $accent;
+  border-radius: 1.56em;
+  padding: 0.5em 1em;
+
+  &:hover {
+    background-color: $accent-hover;
+    border-color: $accent-hover;
+  }
+  &:focus {
+    outline: none;
+    background-color: $accent-focus;
+    border-color: $color-background;
+    box-shadow: 0 0 0 0.125em $accent-focus;
+  }
+  &:disabled {
+    background-color: $grey1;
+    border-color: $grey1;
+  }
+}

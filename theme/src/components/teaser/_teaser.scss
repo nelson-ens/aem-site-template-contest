@@ -1,9 +1,36 @@
 .cmp-teaser {}
-.cmp-teaser__image {}
-.cmp-teaser__content {}
-.cmp-teaser__pretitle {}
-.cmp-teaser__title {}
-.cmp-teaser__title-link {}
-.cmp-teaser__description {}
-.cmp-teaser__action-container {}
-.cmp-teaser__action-link {}
+.cmp-teaser__image {
+  img {
+    display: block;
+  }
+}
+.cmp-teaser__content {
+  padding: 1.5em;
+}
+.cmp-teaser__pretitle {
+  text-transform: uppercase;
+  font-size: 0.625em;
+  font-weight: 300;
+}
+.cmp-teaser__title {
+  font-size: 1em;
+}
+.cmp-teaser__title-link {
+  font-weight: 400;
+  text-decoration: none;
+}
+.cmp-teaser__description {
+  font-weight: 300;
+  font-size: 1em;
+}
+.cmp-teaser__action-container {
+  padding: 0.6em 0;
+  display: flex;
+}
+.cmp-teaser__action-link {
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 1.56em;
+  padding: 0.5em 1em;
+  margin-right: 0.8em;
+}

@@ -357,6 +357,7 @@
       outline: none;
     }
     &:active {
+      background-color: $color-background;
       border-color: $accent-hover;
       outline: none;
     }
@@ -380,6 +381,7 @@
     padding: 0;
     width: 95%;
     min-width: 95%;
+    max-height: 10.6em;
     top: 2.5em;
     border-radius: 0.25em;
     box-shadow: 0 0.25em 0.5em 0.2em $color-shadow;
@@ -389,6 +391,9 @@
     color: $text;
     text-decoration: none;
     margin: 0.625rem 1rem;
+  }
+  .cmp-search__item-mark {
+    background: none;
   }
 
   //== XF Content Fix

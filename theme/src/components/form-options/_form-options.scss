@@ -52,6 +52,7 @@
   }
   &:hover {
     border-width: 0.125em;
+    margin: -0.0625em;
     &:after {
       background-color: $grey3;
     }

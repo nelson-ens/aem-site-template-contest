@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
   var x, i, j, l, ll, selElmnt, a, b, c;
   x = document.getElementsByClassName("cmp-form-options--drop-down");
   l = x.length;
-  console.log(l);
   for (i = 0; i < l; i++) {
     selElmnt = x[i].getElementsByTagName("select")[0];
     ll = selElmnt.length;

@@ -2,17 +2,23 @@ document.addEventListener("DOMContentLoaded", function (event) {
   var x, i, j, l, ll, selElmnt, a, b, c;
   x = document.getElementsByClassName("cmp-form-options--drop-down");
   l = x.length;
+
   for (i = 0; i < l; i++) {
     selElmnt = x[i].getElementsByTagName("select")[0];
+    if (typeof selElmnt === "undefined")
+      return;
     ll = selElmnt.length;
+
     /* For each element, create a new DIV that will act as the selected item: */
     a = document.createElement("DIV");
     a.setAttribute("class", "select-selected");
     a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
     x[i].appendChild(a);
+
     /* For each element, create a new DIV that will contain the option list: */
     b = document.createElement("DIV");
     b.setAttribute("class", "select-items select-hide");
+
     for (j = 1; j < ll; j++) {
       /* For each option in the original select element,
             create a new DIV that will act as an option item: */
@@ -25,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         s = this.parentNode.parentNode.getElementsByTagName("select")[0];
         sl = s.length;
         h = this.parentNode.previousSibling;
+
         for (i = 0; i < sl; i++) {
           if (s.options[i].innerHTML == this.innerHTML) {
             s.selectedIndex = i;
@@ -42,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       });
       b.appendChild(c);
     }
+
     x[i].appendChild(b);
     a.addEventListener("click", function (e) {
       /* When the select box is clicked, close any other select boxes,

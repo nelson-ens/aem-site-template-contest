@@ -9,8 +9,8 @@
 .cmp-accordion__button {
   padding: 0.625em 1em;
   background-color: $color-background;
-  border: none;
-  border-bottom: 0.125em solid $grey1;
+  border: 0.125em solid $transparent;
+  border-bottom-color: $grey1;
   outline: none;
   .cmp-accordion__icon {
     &:after {
@@ -45,8 +45,6 @@
 }
 
 .cmp-accordion__button--expanded {
-  border: none;
-  border-bottom: 0.125em solid $grey1;
   outline: none;
   .cmp-accordion__icon {
     &:after {
@@ -54,8 +52,8 @@
     }
   }
   &:focus {
-    border: none;
-    border-bottom: 0.125rem solid $grey1;
+    border: 0.125em solid $transparent;
+    border-bottom-color: $grey1;
     border-radius: 0;
     .cmp-accordion__title {
       color: $text;

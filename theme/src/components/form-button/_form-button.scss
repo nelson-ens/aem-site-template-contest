@@ -11,6 +11,7 @@
   &:hover {
     background-color: $accent-hover;
     border-color: $accent-hover;
+    cursor: pointer;
   }
   &:focus {
     outline: none;

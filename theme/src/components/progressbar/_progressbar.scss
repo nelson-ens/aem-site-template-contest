@@ -14,8 +14,10 @@
 }
 .cmp-progressbar__bar {
   background-color: $accent;
-  color: $text;
-  &:after {
-    content: "\0025";
-  }
+  color: $transparent;
+}
+
+.cmp-progressbar-completedPercentage {
+  text-align: center;
+  font-size: 1.125em;
 }

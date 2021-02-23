@@ -1,6 +1,6 @@
 {
   "name": "aem-site-template-basic",
-  "version": "4.0.21",
+  "version": "4.0.24",
   "description": "Basic AEM Site Template that serves as a clean starting point.",
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
   "scripts": {
@@ -24,7 +24,7 @@
     "stylelint-prettier": "^1.1.2"
   },
   "siteTemplate": {
-    "title": "Basic AEM Site Template",
+    "title": "Wireframe Site Template",
     "createdBy": "Adobe",
     "useCases": [],
     "docsUrl": "",

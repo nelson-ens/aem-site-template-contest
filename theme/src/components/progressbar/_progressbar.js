@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     for (var i = 0; i < l; i++) {
         var percentage = x[i].firstElementChild.textContent;
-        console.log(percentage);
 
         var element = document.createElement("div");
         element.setAttribute("class", "cmp-progressbar-completedPercentage");

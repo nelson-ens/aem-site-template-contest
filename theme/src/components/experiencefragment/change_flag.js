@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     var x = document.getElementsByClassName("cmp-languagenavigation__item--active")[0];
     var classnameWithLanguage = x.className.split(" ")[1];
-    // console.log(classnameWithLanguage);
 
     var span = document.createElement("span");
     span.setAttribute("class", classnameWithLanguage);

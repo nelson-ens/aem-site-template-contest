@@ -5,18 +5,19 @@
   border-bottom: 0.125em solid $grey1;
 
   .cmp-image {
-    width: fit-content;
-    height: fit-content;
-    padding: 0.2em 0.5em;
-  }
-  .cmp-image__image {
-    width: 9.2em;
+    margin: auto 0.5em;
   }
 
   //=================== Grid layout ===================
 
   .cmp-container {
     display: flex;
+    & .aem-Grid {
+      display: inherit;
+      & .image {
+        display: inline-flex;
+      }
+    }
   }
 
   //=================== Navigation ===================
@@ -111,10 +112,9 @@
 
   .cmp-languagenavigation {
     position: relative;
-    margin: 0 0.5em;
-    border: 0.125em solid $grey2;
+    margin: 0 0.7em;
+    border: 0.125rem solid $grey2;
     border-radius: 0.25em;
-    width: 70%;
 
     & span {
       color: $grey4;
@@ -150,7 +150,7 @@
   }
   .cmp-languagenavigation__group {
     position: absolute;
-    top: 2.5em;
+    top: 2.8em;
     z-index: 1;
     display: grid;
     width: 100%;
@@ -338,9 +338,12 @@
   }
   .cmp-search__input {
     margin: 0 0.5em;
+    padding-top: 0;
+    padding-bottom: 0;
     color: $grey3;
+    font-size: 1.25em;
     background-color: $grey1;
-    border: 0.125em solid $grey1;
+    border: 0.125rem solid $grey1;
     border-radius: 0.25em;
     &::placeholder {
       color: $grey3;
@@ -360,13 +363,32 @@
   }
   .cmp-search__icon {
     top: 0.5em;
-    left: 0.8em;
+    left: 1em;
     width: 24px;
     height: 24px;
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZGVmcz48c3R5bGU+LmEsLmJ7ZmlsbDojNjA3ZDhiO30uYXtvcGFjaXR5OjA7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00MDUgLTgwKSI+PHJlY3QgY2xhc3M9ImEiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDA1IDgwKSIvPjxwYXRoIGNsYXNzPSJiIiBkPSJNNDIuMDIxLTMuNTY1LDM4LjY4Ni02LjlhNS40NzMsNS40NzMsMCwwLDEtMy4xMTYuOTY5LDUuNSw1LjUsMCwwLDEtNS41LTUuNSw1LjUwNyw1LjUwNywwLDAsMSw1LjUtNS41LDUuNTA3LDUuNTA3LDAsMCwxLDUuNSw1LjUsNS40NjQsNS40NjQsMCwwLDEtLjk3LDMuMTE0bDMuMzMzLDMuMzM0YTEsMSwwLDAsMSwwLDEuNDE0LDEsMSwwLDAsMS0uNzA3LjI5M0ExLDEsMCwwLDEsNDIuMDIxLTMuNTY1Wk0zMS45MDUtMTEuNDI3YTMuNjcsMy42NywwLDAsMCwzLjY2NiwzLjY2NiwzLjY3MSwzLjY3MSwwLDAsMCwzLjY2OC0zLjY2NkEzLjY3MywzLjY3MywwLDAsMCwzNS41NzEtMTUuMSwzLjY3MSwzLjY3MSwwLDAsMCwzMS45MDUtMTEuNDI3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzc5LjkyOSAxMDEuOTI5KSIvPjwvZz48L3N2Zz4=");
   }
   .cmp-search__clear-icon {
     display: none;
+  }
+  .cmp-search__loading-indicator{
+    left: 1em;
+  }
+  .cmp-search__results {
+    position: absolute;
+    margin: 0.5em 0.5em;
+    padding: 0;
+    width: 95%;
+    min-width: 95%;
+    top: 2.5em;
+    border-radius: 0.25em;
+    box-shadow: 0 0.25em 0.5em 0.2em $color-shadow;
+  }
+  .cmp-search__item {
+    font-size: 1.25em;
+    color: $text;
+    text-decoration: none;
+    margin: 0.625rem 1rem;
   }
 
   //== XF Content Fix

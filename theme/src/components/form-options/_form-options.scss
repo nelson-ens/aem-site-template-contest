@@ -14,7 +14,7 @@
 // =============== Drop Down Styles =================
 // == text above drop down
 .cmp-form-options__label {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5625rem;
   color: $grey3;
   font-size: 0.625em;
   text-transform: uppercase;
@@ -23,7 +23,7 @@
 // == drop down
 .cmp-form-options--drop-down {
   position: relative;
-  margin: 0.5em;
+  margin: 0.75em 0.5em 0.5em 0.5em;
   padding: 0;
 }
 
@@ -32,7 +32,8 @@
 }
 
 .select-selected {
-  padding: 0.78em 1em;
+  height: 1.25em;
+  padding: 0.5625em 1em 0.6875em 1em;
   color: $grey4;
   background-color: $color-background;
   border: 0.0625em solid $grey2;
@@ -51,8 +52,8 @@
     mask-size: cover;
   }
   &:hover {
-    border-width: 0.125em;
     margin: -0.0625em;
+    border-width: 0.125em;
     &:after {
       background-color: $grey3;
     }
@@ -60,8 +61,8 @@
 }
 
 .select-arrow-active {
-  border-width: 0.125em;
   margin: -0.0625em;
+  border-width: 0.125em;
   :after {
     display: inline-block;
     float: right;
@@ -94,7 +95,8 @@
 }
 
 .select-items div {
-  padding: 0.78em 1em;
+  height: 1.25em;
+  padding: 0.5625em 1em 0.6875em 1em;
   cursor: pointer;
   &:not(.same-as-selected) {
     &:hover {
@@ -121,10 +123,15 @@
 }
 
 // =============== Check Box Styles =================
+.cmp-form-options--checkbox {
+  margin: 0;
+  padding: 0;
+}
 // == entire checkbox/radio with text
 .cmp-form-options__field-label {
   width: fit-content;
-  height: fit-content;
+  height: 2.5em;
+  margin: 0.5em 0.5em;
   &:hover {
     .cmp-form-options__field--checkbox {
       background-color: $color-background;
@@ -152,6 +159,7 @@
 .cmp-form-options__field--checkbox {
   width: 1.5em;
   height: 1.5em;
+  margin: 0.5em 0.375em 0.5em 1em;
   background-color: $grey1;
   border-color: $grey1;
   border-width: 0.25em;
@@ -170,10 +178,9 @@
 
 // == text next to checkbox
 .cmp-form-options__field-description {
-  margin-left: 0.75em;
+  margin: 0.5625em 1em 0.6875em 0.375em;
   color: $text;
-  text-align: center;
-  vertical-align: top;
+  vertical-align: super;
 }
 
 .cmp-form-options__drop-down-field {

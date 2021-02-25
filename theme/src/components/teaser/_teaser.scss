@@ -1,18 +1,23 @@
-.cmp-teaser {}
+.cmp-teaser {
+}
 .cmp-teaser__image {
+  & .cmp-image {
+    margin: 0;
+  }
   img {
     display: block;
   }
 }
 .cmp-teaser__content {
-  padding: 1.5em;
 }
 .cmp-teaser__pretitle {
-  text-transform: uppercase;
-  font-size: 0.625em;
   font-weight: 300;
+  font-size: 0.625em;
+  text-transform: uppercase;
 }
 .cmp-teaser__title {
+  margin-top: 0.625rem;
+  margin-bottom: 1.1875rem;
   font-size: 1em;
 }
 .cmp-teaser__title-link {
@@ -24,13 +29,13 @@
   font-size: 1em;
 }
 .cmp-teaser__action-container {
-  padding: 0.6em 0;
   display: flex;
+  margin: 1rem 0;
 }
 .cmp-teaser__action-link {
+  margin-right: 0.8em;
+  padding: 0.5625em 1em 0.6875em 1em;
   font-weight: 300;
   text-decoration: none;
   border-radius: 1.56em;
-  padding: 0.5em 1em;
-  margin-right: 0.8em;
 }

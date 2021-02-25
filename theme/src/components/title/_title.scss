@@ -1,6 +1,6 @@
 .cmp-title {
-  margin-top: 1.5rem;
-  margin-bottom: 1.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
 }
 .cmp-title__text {
   margin: 0;
@@ -10,19 +10,19 @@
   text-decoration: none;
 
   &:hover {
+    color: $accent-hover;
     text-decoration: underline;
     text-decoration-color: $accent-hover;
-    text-decoration-width: 0.125rem;
-    color: $accent-hover;
+    text-decoration-thickness: 0.125rem;
   }
   &:focus {
-    text-decoration: underline;
-    text-decoration-color: $accent-focus;
-    text-decoration-width: 0.125rem;
-    outline: none;
+    padding: 0 0.125rem;
     color: $accent-focus;
+    text-decoration: underline;
     border: 0.125rem solid $accent;
     border-radius: 0.25rem;
-    padding: 0 0.125rem;
+    outline: none;
+    text-decoration-color: $accent-focus;
+    text-decoration-thickness: 0.125rem;
   }
 }

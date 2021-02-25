@@ -2,19 +2,21 @@
   display: grid;
   margin: 0.5em 0.5em;
   & label {
-    font-size: 0.625em;
+    margin-bottom: 0.5625rem;
     color: $grey3;
-    margin-bottom: 0.5em;
+    font-size: 0.625em;
     text-transform: uppercase;
   }
 }
-.cmp-form-text__help-block {}
+.cmp-form-text__help-block {
+}
 .cmp-form-text__textarea {
-  background-color: $grey1;
-  border-radius: 0.25em;
-  border: 0.125em solid $grey1;
-  padding: 0.78em 1em;
+  height: 10em;
+  padding: 0.5625em 1em 0.6875em 1em;
   font-size: 1em;
+  background-color: $grey1;
+  border: 0.125em solid $grey1;
+  border-radius: 0.25em;
   &:hover {
     background-color: $color-background;
   }
@@ -26,13 +28,14 @@
   }
 }
 .cmp-form-text__text {
+  height: 1.25em;
+  padding: 0.5625em 1em 0.6875em 1em;
+  font-size: 1em;
   background-color: $grey1;
   border-color: $grey1;
   border-style: solid;
-  border-radius: 0.25em;
   border-width: 0.125em;
-  padding: 0.78em 1em;
-  font-size: 1em;
+  border-radius: 0.25em;
   &:hover {
     background-color: $color-background;
   }

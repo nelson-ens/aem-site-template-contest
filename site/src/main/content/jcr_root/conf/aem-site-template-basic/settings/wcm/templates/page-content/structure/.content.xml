@@ -30,28 +30,9 @@
                     sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
                     <teaser
-                        cq:styleIds="[1612897500904,1613169401571]"
-                        jcr:description="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xd;&#xa;"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="This is a Teaser"
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="false"
-                        fileReference="/content/dam/aem-site-template-basic/Image@2x.png"
-                        pretitle="Teasers"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
-                                jcr:primaryType="nt:unstructured"
-                                link="https://www.adobe.com"
-                                text="Button default"/>
-                            <item1
-                                jcr:primaryType="nt:unstructured"
-                                link="https://www.adobe.com"
-                                text="Button default"/>
-                        </actions>
-                    </teaser>
+                        editable="{Boolean}true"/>
                 </container>
                 <container_1578756628
                     cq:styleIds="[1612998379971]"

@@ -1,12 +1,13 @@
 .cmp-form-button {
+  float: right;
   width: fit-content;
   height: fit-content;
-  float: right;
+  margin-top: 0.5em;
+  padding: 0.5em 1em;
   color: $text-on-background;
   background-color: $accent;
   border: 0.125em solid $accent;
   border-radius: 1.56em;
-  padding: 0.5em 1em;
 
   &:hover {
     background-color: $accent-hover;
@@ -14,9 +15,9 @@
     cursor: pointer;
   }
   &:focus {
-    outline: none;
     background-color: $accent-focus;
     border-color: $color-background;
+    outline: none;
     box-shadow: 0 0 0 0.125em $accent-focus;
   }
   &:disabled {

@@ -15,27 +15,29 @@
     transform: translate(-50%, -50%);
   }
   .cmp-teaser__pretitle {
-    text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 0.625em;
     line-height: 1.125em;
     letter-spacing: 0.025em;
+    text-align: center;
   }
   .cmp-teaser__title {
-    text-align: center;
-    color: #FFFFFF;
-    text-decoration: none;
+    margin-top: 0.5625rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    font-size: 2.25em;
     font-family: titleFont, serif;
-    font-size: 2.5em;
+    text-align: center;
+    text-decoration: none;
   }
   .cmp-teaser__title-link {
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .cmp-teaser__description {
-    text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 1em;
     line-height: 1.75em;
+    text-align: center;
   }
   .cmp-teaser__action-container {
     display: flex;
@@ -54,9 +56,9 @@
       border-color: $accent-hover;
     }
     &:focus {
-      outline: none;
       background-color: $accent-focus;
       border-color: $color-background;
+      outline: none;
       box-shadow: 0 0 0 0.125em $accent-focus;
     }
     &:disabled {
@@ -65,20 +67,20 @@
     }
   }
   .cmp-teaser__action-link:not(:first-child) {
+    color: $text-on-background;
     background-color: rgba(0, 0, 0, 0);
     border: 0.125em solid $color-background;
-    color: $text-on-background;
 
     &:hover {
-      background-color: $color-background;
       color: $text;
+      background-color: $color-background;
     }
     &:focus {
-      outline: none;
-      box-shadow: 0 0 0 0.125em $accent-focus;
+      color: $text-on-background;
       background-color: $grey4;
       border: 0.125em solid $color-background;
-      color: $text-on-background;
+      outline: none;
+      box-shadow: 0 0 0 0.125em $accent-focus;
     }
     &:disabled {
       color: $grey1;

@@ -17,7 +17,11 @@
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
-                    layout="responsiveGrid"/>
+                    layout="responsiveGrid">
+                    <teaser
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"/>
+                </container>
             </container>
         </root>
     </jcr:content>

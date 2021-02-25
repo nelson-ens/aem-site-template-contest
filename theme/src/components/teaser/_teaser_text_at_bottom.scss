@@ -1,6 +1,6 @@
 .textAtBottom {
   .cmp-teaser {
-    margin: 0.3em;
+    margin: 2.5em 0.5em 0.5em 0.5em;
   }
   .cmp-teaser__image {
     position: relative;
@@ -14,13 +14,20 @@
       height: 100%;
     }
   }
-  .cmp-teaser__content {}
-  .cmp-teaser__pretitle {}
-  .cmp-teaser__title {}
+  .cmp-teaser__content {
+    padding: 1em 0 0 0;
+  }
+  .cmp-teaser__pretitle {
+  }
+  .cmp-teaser__title {
+  }
   .cmp-teaser__title-link {
     font-size: 1.75em;
   }
-  .cmp-teaser__description {}
-  .cmp-teaser__action-container {}
-  .cmp-teaser__action-link {}
+  .cmp-teaser__description {
+  }
+  .cmp-teaser__action-container {
+  }
+  .cmp-teaser__action-link {
+  }
 }

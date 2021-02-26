@@ -8,7 +8,8 @@
 .cmp-title__link {
   color: $accent;
   text-decoration: none;
-
+  border: 0.125rem solid $transparent;
+  border-radius: 0.25rem;
   &:hover {
     color: $accent-hover;
     text-decoration: underline;
@@ -16,11 +17,9 @@
     text-decoration-thickness: 0.125rem;
   }
   &:focus {
-    padding: 0 0.125rem;
-    color: $accent-focus;
+    color: $accent;
     text-decoration: underline;
-    border: 0.125rem solid $accent;
-    border-radius: 0.25rem;
+    border-color: $accent-focus;
     outline: none;
     text-decoration-color: $accent-focus;
     text-decoration-thickness: 0.125rem;

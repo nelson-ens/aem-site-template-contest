@@ -6,9 +6,11 @@
   & b {
     font-weight: bold;
   }
-  & a {
+  & p a {
     color: $accent;
     text-decoration: none;
+    border: 0.125em solid $transparent;
+    border-radius: 0.25em;
     &:hover {
       color: $accent-hover;
       text-decoration: underline;
@@ -17,10 +19,8 @@
       text-decoration-style: solid;
     }
     &:focus {
-      padding: 0 0.125em;
       text-decoration: underline;
-      border: 0.125em solid $accent;
-      border-radius: 0.25em;
+      border-color: $accent;
       outline: none;
       text-decoration-thickness: 0.125em;
       text-decoration-color: $accent;
@@ -32,6 +32,7 @@
     font-size: 1.75em;
     font-family: titleFont, serif;
     font-style: italic;
+    line-height: 2.375rem;
     margin-inline: 0;
   }
   & ul li::marker {

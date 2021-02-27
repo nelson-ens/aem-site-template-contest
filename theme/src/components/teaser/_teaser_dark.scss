@@ -1,68 +1,72 @@
 .dark {
-  .cmp-teaser {}
-  .cmp-teaser__image {}
+  .cmp-teaser {
+  }
+  .cmp-teaser__image {
+  }
   .cmp-teaser__content {
-    background-color: $grey3;
+    background-color: $grey3 !important;
   }
   .cmp-teaser__pretitle {
-    color: $text-on-background;
+    color: $text-on-background !important;
   }
   .cmp-teaser__title {
-    color: $text-on-background;
+    color: $text-on-background !important;
   }
   .cmp-teaser__title-link {
-    color: $text-on-background;
+    color: $text-on-background !important;
   }
   .cmp-teaser__description {
-    color: $text-on-background;
+    color: $text-on-background !important;
   }
-  .cmp-teaser__action-container {}
+  .cmp-teaser__action-container {
+  }
   .cmp-teaser__action-link {
-    color: $text-on-background;
+    color: $text-on-background !important;
   }
 
   .cmp-teaser__action-link:first-child {
-    background-color: $accent;
-    border-color: $accent;
-    border-style: solid;
-    border-width: 0.125em;
+    background-color: $accent !important;
+    border-color: $accent !important;
+    border-style: solid !important;
+    border-width: 0.125em !important;
 
     &:hover {
-      background-color: $accent-hover;
-      border-color: $accent-hover;
+      background-color: $accent-hover !important;
+      border-color: $accent-hover !important;
     }
     &:focus {
+      background-color: $accent-focus !important;
+      border-color: $color-background !important;
       outline: none;
-      background-color: $accent-focus;
-      border-color: $color-background;
-      box-shadow: 0 0 0 0.125em $accent-focus;
+      box-shadow: 0 0 0 0.125em $accent-focus !important;
     }
     &:disabled {
-      background-color: $grey1;
-      border-color: $grey1;
+      background-color: $grey1 !important;
+      border-color: $grey1 !important;
     }
   }
   .cmp-teaser__action-link:not(:first-child) {
-    background-color: rgba(0, 0, 0, 0);
-    border-color: $color-background;
-    border-style: solid;
-    border-width: 0.125em;
+    color: $text-on-background !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-color: $color-background !important;
+    border-style: solid !important;
+    border-width: 0.125em !important;
 
     &:hover {
-      background-color: $color-background;
-      color: $text;
+      color: $text !important;
+      background-color: $color-background !important;
     }
     &:focus {
+      background-color: rgba(0, 0, 0, 0) !important;
+      border-color: $color-background !important;
+      border-style: solid !important;
+      border-width: 0.125em !important;
       outline: none;
-      box-shadow: 0 0 0 0.125em $accent-focus;
-      background-color: $grey4;
-      border-color: $color-background;
-      border-style: solid;
-      border-width: 0.125em;
+      box-shadow: 0 0 0 0.125em $accent-focus !important;
     }
     &:disabled {
-      color: $grey3;
-      border-color: $grey3;
+      color: $grey3 !important;
+      border-color: $grey3 !important;
     }
   }
 }

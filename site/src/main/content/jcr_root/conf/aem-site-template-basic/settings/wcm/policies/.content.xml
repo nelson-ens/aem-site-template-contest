@@ -69,7 +69,6 @@
                     <v1 jcr:primaryType="nt:unstructured">
                         <teaser jcr:primaryType="nt:unstructured">
                             <policy_default
-                                cq:styleDefaultClasses="textOnTop light"
                                 jcr:description="Sets the title size to H3."
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Teaser"
@@ -79,41 +78,31 @@
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0
-                                        cq:styleGroupLabel="Text Position"
+                                        cq:styleGroupLabel="Layout"
                                         jcr:primaryType="nt:unstructured">
                                         <cq:styles jcr:primaryType="nt:unstructured">
                                             <item0
                                                 cq:styleClasses="textAtBottom"
                                                 cq:styleId="1612830658386"
-                                                cq:styleLabel="Bottom"
+                                                cq:styleLabel="Text Bottom"
                                                 jcr:primaryType="nt:unstructured"/>
                                             <item1
                                                 cq:styleClasses="textAtLeft"
                                                 cq:styleId="1612897379772"
-                                                cq:styleLabel="Left"
+                                                cq:styleLabel="Text Left"
                                                 jcr:primaryType="nt:unstructured"/>
                                             <item2
                                                 cq:styleClasses="textAtRight"
                                                 cq:styleId="1612897454978"
-                                                cq:styleLabel="Right"
-                                                jcr:primaryType="nt:unstructured"/>
-                                            <item3
-                                                cq:styleClasses="textOnTop"
-                                                cq:styleId="1613169401571"
-                                                cq:styleLabel="Overlay"
+                                                cq:styleLabel="Text Right"
                                                 jcr:primaryType="nt:unstructured"/>
                                         </cq:styles>
                                     </item0>
                                     <item1
-                                        cq:styleGroupLabel="Theme Color"
+                                        cq:styleGroupLabel="Style Variation"
                                         jcr:primaryType="nt:unstructured">
                                         <cq:styles jcr:primaryType="nt:unstructured">
                                             <item0
-                                                cq:styleClasses="light"
-                                                cq:styleId="1612897500904"
-                                                cq:styleLabel="Light"
-                                                jcr:primaryType="nt:unstructured"/>
-                                            <item1
                                                 cq:styleClasses="dark"
                                                 cq:styleId="1612897513127"
                                                 cq:styleLabel="Dark"

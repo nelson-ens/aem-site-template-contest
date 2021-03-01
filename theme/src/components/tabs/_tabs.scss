@@ -2,8 +2,12 @@
   margin: 0.5em;
 }
 
-.cmp-tabs__tablist {}
+.cmp-tabs__tablist {
+}
 .cmp-tabs__tab {
+  height: 2.625em;
+  margin: 0;
+  padding: 0.5625em 1em 0.6875em 1em;
   color: $grey3;
   font-size: 1em;
   outline: none;
@@ -24,8 +28,9 @@
   }
 }
 
-.cmp-tabs__tabpanel {}
+.cmp-tabs__tabpanel {
+}
 .cmp-tabs__tabpanel--active {
-  padding-left: 0.5em;
   padding-right: 0.5em;
+  padding-left: 0.5em;
 }

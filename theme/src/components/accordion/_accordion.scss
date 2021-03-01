@@ -7,7 +7,7 @@
 }
 
 .cmp-accordion__button {
-  padding: 0.625em 1em;
+  padding: 0.5625rem 1rem 0.6875rem 1rem;
   background-color: $color-background;
   border: 0.125em solid $transparent;
   border-bottom-color: $grey1;
@@ -17,7 +17,7 @@
       display: inline-block;
       width: 24px;
       height: 24px;
-      margin: 0 1em;
+      margin: 0;
       vertical-align: -25%;
       background-color: $grey2;
       content: "";
@@ -64,7 +64,7 @@
 .cmp-accordion__title {
   color: $grey3;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .cmp-accordion__icon {

@@ -10,9 +10,9 @@
       }
     }
     &:focus {
-      outline: none;
       background-color: rgba(0, 0, 0, 0);
       border-color: $color-background;
+      outline: none;
       box-shadow: 0 0 0 0.125em $accent-focus;
     }
     &:disabled {
@@ -28,6 +28,6 @@
     color: $text-on-background;
   }
 
-  .cmp-button__icon {}
+  .cmp-button__icon {
+  }
 }
-

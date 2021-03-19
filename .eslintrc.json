@@ -1,0 +1,11 @@
+{
+    "extends": [
+        "plugin:prettier/recommended"
+    ],
+    "globals": {
+        "document":"readonly"
+    },
+    "rules": {
+        "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
+    }
+}

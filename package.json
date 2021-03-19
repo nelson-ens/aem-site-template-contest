@@ -8,11 +8,15 @@
     "deploy": "curl -u admin:admin -F file=@aem-site-template-basic-latest.zip http://localhost:4502/conf/global/site-templates.import.html",
     "prettier:scss": "prettier --write './theme/src/**/*.scss'",
     "lint:scss": "stylelint --fix './theme/src/**/*.scss'",
+    "lint:js": "eslint --fix './theme/src/**/*.js'",
     "stylefix": "npm run prettier:scss && npm run lint:scss",
     "postinstall": "husky install"
   },
   "devDependencies": {
     "@adobe/aem-site-template-builder": "2.1.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "husky": "^5.0.9",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
@@ -32,6 +36,7 @@
     "sourceRepositoryUrl": "https://github.com/adobe/aem-site-template-basic"
   },
   "lint-staged": {
+    "theme/src/**/*.js": "eslint --cache --fix",
     "theme/src/**/*.scss": [
       "stylelint --syntax scss --fix",
       "git add"

@@ -28,12 +28,12 @@
     "stylelint-prettier": "^1.1.2"
   },
   "siteTemplate": {
-    "title": "Wireframe Site Template",
+    "title": "Contest Site Template",
     "createdBy": "Adobe",
     "useCases": [],
     "docsUrl": "",
     "showcaseUrl": "",
-    "sourceRepositoryUrl": "https://github.com/adobe/aem-site-template-basic"
+    "sourceRepositoryUrl": "https://github.com/nelson-ensemble/aem-site-template-contest"
   },
   "lint-staged": {
     "theme/src/**/*.js": "eslint --cache --fix",

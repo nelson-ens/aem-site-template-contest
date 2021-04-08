@@ -20,8 +20,6 @@
                             </policy_default>
                             <policy_1612895037723
                                 cq:styleDefaultClasses="home-page"
-                                jcr:lastModified="{Date}2021-03-30T18:47:35.439Z"
-                                jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Home page"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -30,8 +28,6 @@
                             </policy_1612895037723>
                             <policy_1617123198107
                                 cq:styleDefaultClasses="content-page"
-                                jcr:lastModified="{Date}2021-03-30T18:47:14.548Z"
-                                jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Page"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -64,8 +60,6 @@
                         <teaser jcr:primaryType="nt:unstructured">
                             <policy_default
                                 jcr:description="Teasers for contents."
-                                jcr:lastModified="{Date}2021-04-06T21:31:47.903Z"
-                                jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Teaser"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -124,8 +118,6 @@
                             </policy_default>
                             <policy_1617744368298
                                 jcr:description="Hero Teaser for Home Page"
-                                jcr:lastModified="{Date}2021-04-06T21:31:07.824Z"
-                                jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Home Page Hero Teaser"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -148,8 +140,6 @@
                             </policy_1617744368298>
                             <policy_1617744583927
                                 jcr:description="Hero Teaser for the Content Pages"
-                                jcr:lastModified="{Date}2021-04-06T21:30:34.111Z"
-                                jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Page Hero Teaser"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -415,8 +405,6 @@
                     <v2 jcr:primaryType="nt:unstructured">
                         <text jcr:primaryType="nt:unstructured">
                             <policy_default
-                                jcr:lastModified="{Date}2021-04-06T21:29:15.408Z"
-                                jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Text"
                                 sling:resourceType="wcm/core/components/policy/policy">
@@ -517,8 +505,6 @@
                                 </cq:styleGroups>
                             </policy_default>
                             <policy_1617732078119
-                                jcr:lastModified="{Date}2021-04-06T21:29:01.300Z"
-                                jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Home Horizontal Menu"
                                 sling:resourceType="wcm/core/components/policy/policy">
@@ -627,8 +613,6 @@
                             <policy_default
                                 cq:styleDefaultClasses="standard"
                                 jcr:description="- Enable lazy loading for faster page loading.&#xd;&#xa;- Define allowed image widths for automatic loading of the image in the most optimal resolution, given the size at which each image is displayed on the page, and the visitor's pixel density.&#xd;&#xa;- Disallow direct asset upload, to force authors to first upload the images to Assets."
-                                jcr:lastModified="{Date}2021-04-08T02:34:54.643Z"
-                                jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Image"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -878,8 +862,6 @@
                         <carousel jcr:primaryType="nt:unstructured">
                             <policy_1617150820073
                                 jcr:description="Add carousel styles"
-                                jcr:lastModified="{Date}2021-04-05T21:01:51.609Z"
-                                jcr:lastModifiedBy="amys"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Carousel Policy"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -913,8 +895,6 @@
                     <v1 jcr:primaryType="nt:unstructured">
                         <embed jcr:primaryType="nt:unstructured">
                             <policy_1617323085088
-                                jcr:lastModified="{Date}2021-04-05T22:36:13.400Z"
-                                jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Embed Home Page"
                                 sling:resourceType="wcm/core/components/policy/policy"

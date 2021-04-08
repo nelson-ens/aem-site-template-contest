@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-04-08T01:51:57.406Z"
+        cq:lastModifiedBy="emmanuelm"
+        cq:template="/conf/aem-site-template-basic/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Explore"
+        sling:resourceType="core/wcm/components/page/v2/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container">
+                <container_1578756628
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container">
+                    <container
+                        cq:styleIds="[1613079653269]"
+                        jcr:created="{Date}2021-03-28T19:16:17.302Z"
+                        jcr:createdBy="emmanuelm"
+                        jcr:lastModified="{Date}2021-03-28T19:16:17.302Z"
+                        jcr:lastModifiedBy="emmanuelm"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container">
+                        <container
+                            jcr:created="{Date}2021-03-30T19:22:41.473Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-03-30T19:22:41.473Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                            <teaser
+                                cq:styleIds="[1617146991220,1617216256059]"
+                                jcr:created="{Date}2021-03-28T19:16:45.376Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:description="&lt;p>The outdoor guide to the North Shore Mountains&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2021-04-01T22:50:48.986Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="The outdoor guide to the North Shore Mountains"
+                                sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                                actionsEnabled="true"
+                                descriptionFromPage="false"
+                                fileReference="/content/dam/aem-site-template-basic/explorethecity/1-attractions.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                pretitle="FEATURED"
+                                textIsRich="true"
+                                titleFromPage="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        behavior="newline"
+                                        offset="0"
+                                        width="4"/>
+                                </cq:responsive>
+                                <actions jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        link="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                        text="Learn More"/>
+                                </actions>
+                            </teaser>
+                            <carousel
+                                cq:styleIds="[1617150887657]"
+                                jcr:created="{Date}2021-03-30T19:23:23.957Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-03-30T19:23:23.957Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/carousel/v1/carousel">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="6"/>
+                                </cq:responsive>
+                                <image
+                                    cq:styleIds="[1612913724665]"
+                                    jcr:created="{Date}2021-03-30T19:28:58.831Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-01T22:50:41.686Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    altValueFromDAM="true"
+                                    displayPopupTitle="true"
+                                    fileReference="/content/dam/aem-site-template-basic/explorethecity/1-attractions.png"
+                                    imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                    isDecorative="false"
+                                    titleValueFromDAM="true"/>
+                                <image_1723550481
+                                    jcr:created="{Date}2021-03-30T19:30:58.839Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-01T22:52:30.953Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    altValueFromDAM="false"
+                                    displayPopupTitle="false"
+                                    fileReference="/content/dam/aem-site-template-basic/explorethecity/3-shopping.png"
+                                    imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                    isDecorative="false"
+                                    titleValueFromDAM="false"/>
+                                <image_716615865
+                                    jcr:created="{Date}2021-03-30T19:31:13.174Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-01T22:52:14.214Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    altValueFromDAM="true"
+                                    displayPopupTitle="true"
+                                    fileReference="/content/dam/aem-site-template-basic/explorethecity/5-nightlife.png"
+                                    imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                    isDecorative="false"
+                                    titleValueFromDAM="true"/>
+                                <image_997892618
+                                    jcr:created="{Date}2021-03-30T19:30:18.534Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-01T22:51:59.271Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    altValueFromDAM="true"
+                                    displayPopupTitle="true"
+                                    fileReference="/content/dam/aem-site-template-basic/explorethecity/8-nature.png"
+                                    imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                    isDecorative="false"
+                                    titleValueFromDAM="true"/>
+                            </carousel>
+                        </container>
+                    </container>
+                    <title
+                        cq:styleIds="[1612896645990]"
+                        jcr:created="{Date}2021-03-28T19:42:36.779Z"
+                        jcr:createdBy="emmanuelm"
+                        jcr:lastModified="{Date}2021-03-29T16:34:01.056Z"
+                        jcr:lastModifiedBy="emmanuelm"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Browse All Attractions"
+                        sling:resourceType="core/wcm/components/title/v2/title">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </title>
+                    <container_56327546
+                        jcr:created="{Date}2021-03-28T19:58:55.066Z"
+                        jcr:createdBy="emmanuelm"
+                        jcr:lastModified="{Date}2021-03-28T19:58:55.066Z"
+                        jcr:lastModifiedBy="emmanuelm"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                        <container
+                            jcr:created="{Date}2021-03-29T19:19:36.864Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-03-29T19:19:36.864Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container">
+                            <image
+                                cq:styleIds="[1612913724665]"
+                                jcr:created="{Date}2021-03-28T20:14:23.389Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:53:01.558Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Vandusen Garden"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Vandusen Garden"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/attractions/1-vanduseun.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="3"/>
+                                </cq:responsive>
+                            </image>
+                            <image_1922838031
+                                cq:styleIds="[1612913724665]"
+                                jcr:created="{Date}2021-03-28T20:14:29.194Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:53:13.713Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="FlyOver Canada"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="FlyOver Canada"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/attractions/3-flyovercanada.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="3"/>
+                                </cq:responsive>
+                            </image_1922838031>
+                            <image_1881422033
+                                cq:styleIds="[1612913724665]"
+                                jcr:created="{Date}2021-03-28T20:14:26.578Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:53:23.910Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Museum of Anthropology"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Museum of Anthropology"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/attractions/2-museumofanthropology.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="3"/>
+                                </cq:responsive>
+                            </image_1881422033>
+                            <image_458591503
+                                cq:styleIds="[1612913724665]"
+                                jcr:created="{Date}2021-03-28T20:14:33.424Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:53:34.828Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Bloedel Conservatory"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Bloedel Conservatory"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/attractions/4-bloedel.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="3"/>
+                                </cq:responsive>
+                            </image_458591503>
+                            <image_51640610
+                                cq:styleIds="[1612913724665]"
+                                jcr:created="{Date}2021-03-28T20:20:18.168Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:53:49.373Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Science World"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Science World"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/attractions/5-scienceworld.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="3"/>
+                                </cq:responsive>
+                            </image_51640610>
+                            <image_1221125453
+                                cq:styleIds="[1612913724665]"
+                                jcr:created="{Date}2021-03-28T20:20:23.930Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:53:58.507Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="English Bay"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="English Bay"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/attractions/6-englishbay.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="3"/>
+                                </cq:responsive>
+                            </image_1221125453>
+                            <image_862093765
+                                cq:styleIds="[1612913724665]"
+                                jcr:created="{Date}2021-03-28T20:20:29.318Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:54:15.737Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Canada Place"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Canada Place"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/attractions/7-canadaplace.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="3"/>
+                                </cq:responsive>
+                            </image_862093765>
+                            <image_1888268153
+                                cq:styleIds="[1612913724665]"
+                                jcr:created="{Date}2021-03-28T20:20:34.766Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:54:24.533Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Steam Clock"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Steam Clock"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/attractions/8-steamclock.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="3"/>
+                                </cq:responsive>
+                            </image_1888268153>
+                            <image_145219400
+                                cq:styleIds="[1612913724665]"
+                                jcr:created="{Date}2021-03-28T20:28:59.977Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:54:40.294Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Kitsilano Beach"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Kitsilano Beach"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/attractions/9-kitsbeach.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="3"/>
+                                </cq:responsive>
+                            </image_145219400>
+                            <image_1583227821
+                                cq:styleIds="[1612913724665]"
+                                jcr:created="{Date}2021-03-28T20:29:07.907Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:54:48.833Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Spanish Banks"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Spanish Banks"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/attractions/10-spanishbanks.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="3"/>
+                                </cq:responsive>
+                            </image_1583227821>
+                            <image_1908147044
+                                cq:styleIds="[1612913724665]"
+                                jcr:created="{Date}2021-03-28T20:29:16.305Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:54:57.113Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Museum of Vancouver"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Museum of Vancouver"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/attractions/11-museumofvancouver.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="3"/>
+                                </cq:responsive>
+                            </image_1908147044>
+                            <image_772039442
+                                cq:styleIds="[1612913724665]"
+                                jcr:created="{Date}2021-03-28T20:29:23.410Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:55:06.883Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Queen Elizabeth Park"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Queen Elizabeth Park"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/attractions/12-queenelizabethpark.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="3"/>
+                                </cq:responsive>
+                            </image_772039442>
+                        </container>
+                    </container_56327546>
+                    <button
+                        cq:styleIds="[1613070360567]"
+                        jcr:created="{Date}2021-03-28T22:16:05.015Z"
+                        jcr:createdBy="emmanuelm"
+                        jcr:lastModified="{Date}2021-03-28T22:16:55.658Z"
+                        jcr:lastModifiedBy="emmanuelm"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="See more"
+                        sling:resourceType="core/wcm/components/button/v1/button">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </button>
+                </container_1578756628>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    layout="responsiveGrid">
+                    <teaser
+                        cq:styleIds="[1617228512864]"
+                        jcr:lastModified="{Date}2021-04-08T01:51:57.359Z"
+                        jcr:lastModifiedBy="emmanuelm"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="ATTRACTIONS"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/aem-site-template-basic/heroattraction.png"
+                        imageServerUrl="https://s7d2.scene7.com/is/image/"
+                        pretitle="\[[icon=attraction]]"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="https://www.adobe.com/"
+                                text="do not display"/>
+                        </actions>
+                    </teaser>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+    <attraction-details/>
+    <attraction-details-2/>
+</jcr:root>

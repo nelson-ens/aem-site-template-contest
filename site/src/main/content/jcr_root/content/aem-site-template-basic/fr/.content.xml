@@ -7,7 +7,7 @@
         cq:lastModified="{Date}2021-02-19T23:14:18.498Z"
         cq:lastModifiedBy="reference-adjustment-service"
         cq:redirectTarget="/content/aem-site-template-basic/fr/home"
-        cq:template="/conf/aem-site-template-basic/settings/wcm/templates/page-content"
+        cq:template="/conf/aem-site-template-basic/settings/wcm/templates/content-page"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
@@ -45,6 +45,8 @@
         </root>
     </jcr:content>
     <home/>
-    <article/>
-    <contact-us/>
+    <attractions/>
+    <neighborhoods/>
+    <plan/>
+    <offers/>
 </jcr:root>

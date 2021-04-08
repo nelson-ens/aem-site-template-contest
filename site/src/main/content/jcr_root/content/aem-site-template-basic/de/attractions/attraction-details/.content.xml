@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-04-08T03:12:07.729Z"
+        cq:lastModifiedBy="emmanuelm"
+        cq:template="/conf/aem-site-template-basic/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Stanley Park"
+        sling:resourceType="core/wcm/components/page/v2/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container">
+                <container_1578756628
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container">
+                    <container
+                        jcr:created="{Date}2021-03-28T19:16:17.302Z"
+                        jcr:createdBy="emmanuelm"
+                        jcr:lastModified="{Date}2021-03-28T19:16:17.302Z"
+                        jcr:lastModifiedBy="emmanuelm"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container">
+                        <title
+                            cq:styleIds="[1612896645990]"
+                            jcr:created="{Date}2021-03-28T19:42:36.779Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-03-29T20:44:24.489Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Urban Green Oasis"
+                            sling:resourceType="core/wcm/components/title/v2/title">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </title>
+                        <text
+                            jcr:created="{Date}2021-03-29T20:44:58.171Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-04-06T16:00:59.730Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/text/v2/text"
+                            text="&lt;p>North America's third-largest park draws eight million visitors per year, many of whom may skate or walk past you on the Seawall, a scenic, 5.5-mile path running along the water on the park's perimeter. It's just one of man amonth the park's 1,000 acres, which also house an aquarium, nature center and other recreational facilities.&lt;/p>&#xd;&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="7"/>
+                            </cq:responsive>
+                        </text>
+                        <separator
+                            jcr:created="{Date}2021-03-29T20:44:36.924Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-03-29T20:44:36.924Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/separator/v1/separator">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </separator>
+                        <container
+                            jcr:created="{Date}2021-03-29T20:52:11.582Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-03-29T20:52:11.582Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                            <container
+                                jcr:created="{Date}2021-04-06T04:10:05.371Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-06T04:10:05.371Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="5"/>
+                                </cq:responsive>
+                                <text_933512075
+                                    cq:styleIds="[1617681132819]"
+                                    jcr:created="{Date}2021-04-06T03:53:19.421Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-08T03:10:27.675Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>[[icon=duration]]Suggested Duration 2 - 3 hours&lt;/p>&#xd;&#xa;"
+                                    textIsRich="true">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="5"/>
+                                    </cq:responsive>
+                                </text_933512075>
+                                <text
+                                    cq:styleIds="[1617681132819]"
+                                    jcr:created="{Date}2021-04-06T04:11:19.277Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-08T03:11:53.565Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>[[icon=location]]Stanley Park Causeway, Vancouver, British Columbia V6G 1Z4&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                                    textIsRich="true"/>
+                            </container>
+                            <container_1789097296
+                                jcr:created="{Date}2021-04-06T04:10:39.918Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-06T04:10:39.918Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/container/v1/container">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="5"/>
+                                </cq:responsive>
+                                <text_956565987
+                                    cq:styleIds="[1617681132819]"
+                                    jcr:created="{Date}2021-04-06T03:55:13.728Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-08T03:11:37.513Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>[[icon=website]][[goto=https://vancouver.ca/parks-recreation-culture/what-to-do.aspx]]Website&lt;/p>&#xd;&#xa;"
+                                    textIsRich="true">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="5"/>
+                                    </cq:responsive>
+                                </text_956565987>
+                                <text
+                                    cq:styleIds="[1617681132819]"
+                                    jcr:created="{Date}2021-04-06T04:11:51.803Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-08T03:12:07.697Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core/wcm/components/text/v2/text"
+                                    text="&lt;p>[[icon=phone]]604-873-7000&lt;/p>&#xd;&#xa;"
+                                    textIsRich="true"/>
+                            </container_1789097296>
+                        </container>
+                        <separator_1517252583
+                            jcr:created="{Date}2021-03-29T20:45:43.571Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-03-29T20:45:43.571Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/separator/v1/separator">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </separator_1517252583>
+                        <teaser
+                            cq:styleIds="[1617245406564]"
+                            jcr:created="{Date}2021-03-28T19:16:45.376Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-04-06T21:33:48.438Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/aem-site-template-basic/stanleyparkgallery.png"
+                            imageServerUrl="https://s7d2.scene7.com/is/image/"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    link="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                    text="View Photos"/>
+                            </actions>
+                        </teaser>
+                    </container>
+                    <container_827523079
+                        cq:styleIds="[1613079653269]"
+                        jcr:created="{Date}2021-03-29T20:41:01.400Z"
+                        jcr:createdBy="emmanuelm"
+                        jcr:lastModified="{Date}2021-03-29T20:41:01.400Z"
+                        jcr:lastModifiedBy="emmanuelm"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container">
+                        <title
+                            cq:styleIds="[1612896645990]"
+                            jcr:created="{Date}2021-03-29T20:41:21.714Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-03-29T20:42:33.789Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Nearby Hotels"
+                            sling:resourceType="core/wcm/components/title/v2/title">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </title>
+                        <container_56327546
+                            jcr:created="{Date}2021-03-28T19:58:55.066Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-03-28T19:58:55.066Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                            <image
+                                cq:styleIds="[1617745594392]"
+                                jcr:created="{Date}2021-03-28T20:14:23.389Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:57:14.905Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="The Westin Bayshore, Vancouver"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="The Westin Bayshore, Vancouver"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/hotels/hotel1.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="https://www.adobe.com/"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="2"/>
+                                </cq:responsive>
+                            </image>
+                            <image_1922838031
+                                cq:styleIds="[1617745594392]"
+                                jcr:created="{Date}2021-03-28T20:14:29.194Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-06T21:48:30.954Z"
+                                jcr:lastModifiedBy="amys"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Loden Hotel"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Loden Hotel"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/hotels/hotel2.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="https://www.adobe.com/"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="2"/>
+                                </cq:responsive>
+                            </image_1922838031>
+                            <image_1881422033
+                                cq:styleIds="[1617745594392]"
+                                jcr:created="{Date}2021-03-28T20:14:26.578Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:57:27.750Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Vancouver Marriott Downtown"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Vancouver Marriott Downtown"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/hotels/hotel3.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="https://www.adobe.com/"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="2"/>
+                                </cq:responsive>
+                            </image_1881422033>
+                            <image_458591503
+                                cq:styleIds="[1617745594392]"
+                                jcr:created="{Date}2021-03-28T20:14:33.424Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:57:36.916Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Hotel Fairmont Pacific Rim"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Hotel Fairmont Pacific Rim"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/hotels/hotel4.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="https://www.adobe.com/"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="2"/>
+                                </cq:responsive>
+                            </image_458591503>
+                            <image_51640610
+                                cq:styleIds="[1617745594392]"
+                                jcr:created="{Date}2021-03-28T20:20:18.168Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:57:41.996Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Hyatt Regency Vancouver"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Hyatt Regency Vancouver"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/hotels/hotel5.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="https://www.adobe.com/"
+                                titleValueFromDAM="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="2"/>
+                                </cq:responsive>
+                            </image_51640610>
+                        </container_56327546>
+                    </container_827523079>
+                </container_1578756628>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    layout="responsiveGrid">
+                    <teaser
+                        cq:styleIds="[1617228512864]"
+                        jcr:lastModified="{Date}2021-04-08T01:52:41.792Z"
+                        jcr:lastModifiedBy="emmanuelm"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="STANLEY PARK"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/aem-site-template-basic/herodetails.png"
+                        imageServerUrl="https://s7d2.scene7.com/is/image/"
+                        pretitle="\[[icon=marker]]"
+                        textIsRich="true"
+                        titleFromPage="false"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

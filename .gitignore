@@ -82,6 +82,7 @@ buildNumber.properties
 .vscode
 
 .repo
+.eslintcache
 
 node_modules
 npm-debug.log

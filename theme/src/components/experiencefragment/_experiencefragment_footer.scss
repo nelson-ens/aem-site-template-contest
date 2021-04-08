@@ -1,9 +1,26 @@
 //== XF Footer style, used on page template
 
 .experiencefragment.footer {
-  margin-top: 5em;
   padding: 1.625em 0 1.5625em 0;
   border-top: 0.125em solid $grey1;
+  @include sm {
+    padding: 1.625em 2em 1.5625em 2em;
+  }
+
+  .cmp-container .aem-Grid {
+    align-items: left;
+
+    @include sm {
+      padding: 1.625em 2em 1.5625em 1em;
+      & .text {
+        width: 100% !important;
+        margin: 0;
+        &:last-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
 
   & div {
     height: 100%;
@@ -19,6 +36,7 @@
 
   .image,
   .text {
+    height: 3em;
     margin: 0 1em;
   }
 
@@ -29,6 +47,7 @@
   .cmp-image__image {
     display: block;
     width: 9.2em;
+    height: 3em;
     margin: 0 auto;
   }
 

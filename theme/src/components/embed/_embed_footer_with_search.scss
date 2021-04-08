@@ -1,7 +1,7 @@
 .footerWithSearch {
-  position: relative !important;
-  top: -18em !important;
-  height: 0 !important;
+  position: relative;
+  top: -18em;
+  height: 0;
 
   .cmp-embed {
     .cmp-embed_footerwithsearch_content {
@@ -21,11 +21,19 @@
     }
 
     .cmp-embed_footerwithsearch_caption {
-      margin-top: 2em;
+      margin: 2em 2em 1em 2em;
       color: $text-dark;
       font-weight: bolder;
       font-size: 1.25em;
       line-height: 1.25em;
+      @include md {
+        font-size: $text-fixed-medium;
+        line-height: $text-fixed-height-large;
+      }
+      @include sm {
+        font-size: $text-fixed-small;
+        line-height: $text-fixed-height-medium;
+      }
     }
 
     .cmp-embed_footerwithsearch_search {
@@ -39,6 +47,9 @@
       background-size: 24px !important;
       border: 1px solid $grey2;
       border-radius: 4px;
+      @include sm {
+        width: 120px;
+      }
     }
 
     .cmp-embed_footerwithsearch_input {
@@ -49,7 +60,10 @@
       color: $text-dark;
       border: none;
       outline: none;
-
+      @include sm {
+        width: 70px;
+        font-size: $text-fixed-small;
+      }
       &:focus {
         border: none;
       }

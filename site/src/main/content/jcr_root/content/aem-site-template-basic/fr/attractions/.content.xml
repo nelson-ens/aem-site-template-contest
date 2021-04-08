@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-04-08T01:51:57.406Z"
+        cq:lastModified="{Date}2021-04-08T21:32:20.708Z"
         cq:lastModifiedBy="emmanuelm"
         cq:template="/conf/aem-site-template-basic/settings/wcm/templates/content-page"
         jcr:primaryType="cq:PageContent"
@@ -46,7 +46,7 @@
                                 jcr:created="{Date}2021-03-28T19:16:45.376Z"
                                 jcr:createdBy="emmanuelm"
                                 jcr:description="&lt;p>The outdoor guide to the North Shore Mountains&lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2021-04-01T22:50:48.986Z"
+                                jcr:lastModified="{Date}2021-04-08T21:30:29.105Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="The outdoor guide to the North Shore Mountains"
@@ -68,7 +68,7 @@
                                 <actions jcr:primaryType="nt:unstructured">
                                     <item0
                                         jcr:primaryType="nt:unstructured"
-                                        link="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                        link="attractions/attraction-details.html"
                                         text="Learn More"/>
                                 </actions>
                             </teaser>
@@ -182,7 +182,7 @@
                                 cq:styleIds="[1612913724665]"
                                 jcr:created="{Date}2021-03-28T20:14:23.389Z"
                                 jcr:createdBy="emmanuelm"
-                                jcr:lastModified="{Date}2021-04-01T22:53:01.558Z"
+                                jcr:lastModified="{Date}2021-04-08T21:31:00.006Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Vandusen Garden"
@@ -193,7 +193,7 @@
                                 fileReference="/content/dam/aem-site-template-basic/attractions/1-vanduseun.png"
                                 imageServerUrl="https://s7d2.scene7.com/is/image/"
                                 isDecorative="false"
-                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                linkURL="attractions/attraction-details.html"
                                 titleValueFromDAM="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
@@ -206,7 +206,7 @@
                                 cq:styleIds="[1612913724665]"
                                 jcr:created="{Date}2021-03-28T20:14:29.194Z"
                                 jcr:createdBy="emmanuelm"
-                                jcr:lastModified="{Date}2021-04-01T22:53:13.713Z"
+                                jcr:lastModified="{Date}2021-04-08T21:31:06.610Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="FlyOver Canada"
@@ -217,7 +217,7 @@
                                 fileReference="/content/dam/aem-site-template-basic/attractions/3-flyovercanada.png"
                                 imageServerUrl="https://s7d2.scene7.com/is/image/"
                                 isDecorative="false"
-                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                linkURL="attractions/attraction-details.html"
                                 titleValueFromDAM="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
@@ -230,7 +230,7 @@
                                 cq:styleIds="[1612913724665]"
                                 jcr:created="{Date}2021-03-28T20:14:26.578Z"
                                 jcr:createdBy="emmanuelm"
-                                jcr:lastModified="{Date}2021-04-01T22:53:23.910Z"
+                                jcr:lastModified="{Date}2021-04-08T21:31:14.373Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Museum of Anthropology"
@@ -241,7 +241,7 @@
                                 fileReference="/content/dam/aem-site-template-basic/attractions/2-museumofanthropology.png"
                                 imageServerUrl="https://s7d2.scene7.com/is/image/"
                                 isDecorative="false"
-                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                linkURL="attractions/attraction-details.html"
                                 titleValueFromDAM="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
@@ -254,7 +254,7 @@
                                 cq:styleIds="[1612913724665]"
                                 jcr:created="{Date}2021-03-28T20:14:33.424Z"
                                 jcr:createdBy="emmanuelm"
-                                jcr:lastModified="{Date}2021-04-01T22:53:34.828Z"
+                                jcr:lastModified="{Date}2021-04-08T21:31:22.830Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Bloedel Conservatory"
@@ -265,7 +265,7 @@
                                 fileReference="/content/dam/aem-site-template-basic/attractions/4-bloedel.png"
                                 imageServerUrl="https://s7d2.scene7.com/is/image/"
                                 isDecorative="false"
-                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                linkURL="attractions/attraction-details.html"
                                 titleValueFromDAM="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
@@ -278,7 +278,7 @@
                                 cq:styleIds="[1612913724665]"
                                 jcr:created="{Date}2021-03-28T20:20:18.168Z"
                                 jcr:createdBy="emmanuelm"
-                                jcr:lastModified="{Date}2021-04-01T22:53:49.373Z"
+                                jcr:lastModified="{Date}2021-04-08T21:31:30.504Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Science World"
@@ -289,7 +289,7 @@
                                 fileReference="/content/dam/aem-site-template-basic/attractions/5-scienceworld.png"
                                 imageServerUrl="https://s7d2.scene7.com/is/image/"
                                 isDecorative="false"
-                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                linkURL="attractions/attraction-details.html"
                                 titleValueFromDAM="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
@@ -302,7 +302,7 @@
                                 cq:styleIds="[1612913724665]"
                                 jcr:created="{Date}2021-03-28T20:20:23.930Z"
                                 jcr:createdBy="emmanuelm"
-                                jcr:lastModified="{Date}2021-04-01T22:53:58.507Z"
+                                jcr:lastModified="{Date}2021-04-08T21:31:36.407Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="English Bay"
@@ -313,7 +313,7 @@
                                 fileReference="/content/dam/aem-site-template-basic/attractions/6-englishbay.png"
                                 imageServerUrl="https://s7d2.scene7.com/is/image/"
                                 isDecorative="false"
-                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                linkURL="attractions/attraction-details.html"
                                 titleValueFromDAM="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
@@ -326,7 +326,7 @@
                                 cq:styleIds="[1612913724665]"
                                 jcr:created="{Date}2021-03-28T20:20:29.318Z"
                                 jcr:createdBy="emmanuelm"
-                                jcr:lastModified="{Date}2021-04-01T22:54:15.737Z"
+                                jcr:lastModified="{Date}2021-04-08T21:31:42.929Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Canada Place"
@@ -337,7 +337,7 @@
                                 fileReference="/content/dam/aem-site-template-basic/attractions/7-canadaplace.png"
                                 imageServerUrl="https://s7d2.scene7.com/is/image/"
                                 isDecorative="false"
-                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                linkURL="attractions/attraction-details.html"
                                 titleValueFromDAM="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
@@ -350,7 +350,7 @@
                                 cq:styleIds="[1612913724665]"
                                 jcr:created="{Date}2021-03-28T20:20:34.766Z"
                                 jcr:createdBy="emmanuelm"
-                                jcr:lastModified="{Date}2021-04-01T22:54:24.533Z"
+                                jcr:lastModified="{Date}2021-04-08T21:31:49.186Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Steam Clock"
@@ -361,7 +361,7 @@
                                 fileReference="/content/dam/aem-site-template-basic/attractions/8-steamclock.png"
                                 imageServerUrl="https://s7d2.scene7.com/is/image/"
                                 isDecorative="false"
-                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                linkURL="attractions/attraction-details.html"
                                 titleValueFromDAM="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
@@ -374,7 +374,7 @@
                                 cq:styleIds="[1612913724665]"
                                 jcr:created="{Date}2021-03-28T20:28:59.977Z"
                                 jcr:createdBy="emmanuelm"
-                                jcr:lastModified="{Date}2021-04-01T22:54:40.294Z"
+                                jcr:lastModified="{Date}2021-04-08T21:31:57.558Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Kitsilano Beach"
@@ -385,7 +385,7 @@
                                 fileReference="/content/dam/aem-site-template-basic/attractions/9-kitsbeach.png"
                                 imageServerUrl="https://s7d2.scene7.com/is/image/"
                                 isDecorative="false"
-                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                linkURL="attractions/attraction-details.html"
                                 titleValueFromDAM="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
@@ -398,7 +398,7 @@
                                 cq:styleIds="[1612913724665]"
                                 jcr:created="{Date}2021-03-28T20:29:07.907Z"
                                 jcr:createdBy="emmanuelm"
-                                jcr:lastModified="{Date}2021-04-01T22:54:48.833Z"
+                                jcr:lastModified="{Date}2021-04-08T21:32:04.753Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Spanish Banks"
@@ -409,7 +409,7 @@
                                 fileReference="/content/dam/aem-site-template-basic/attractions/10-spanishbanks.png"
                                 imageServerUrl="https://s7d2.scene7.com/is/image/"
                                 isDecorative="false"
-                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                linkURL="attractions/attraction-details.html"
                                 titleValueFromDAM="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
@@ -422,7 +422,7 @@
                                 cq:styleIds="[1612913724665]"
                                 jcr:created="{Date}2021-03-28T20:29:16.305Z"
                                 jcr:createdBy="emmanuelm"
-                                jcr:lastModified="{Date}2021-04-01T22:54:57.113Z"
+                                jcr:lastModified="{Date}2021-04-08T21:32:11.109Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Museum of Vancouver"
@@ -433,7 +433,7 @@
                                 fileReference="/content/dam/aem-site-template-basic/attractions/11-museumofvancouver.png"
                                 imageServerUrl="https://s7d2.scene7.com/is/image/"
                                 isDecorative="false"
-                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                linkURL="attractions/attraction-details.html"
                                 titleValueFromDAM="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
@@ -446,7 +446,7 @@
                                 cq:styleIds="[1612913724665]"
                                 jcr:created="{Date}2021-03-28T20:29:23.410Z"
                                 jcr:createdBy="emmanuelm"
-                                jcr:lastModified="{Date}2021-04-01T22:55:06.883Z"
+                                jcr:lastModified="{Date}2021-04-08T21:32:20.663Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Queen Elizabeth Park"
@@ -457,7 +457,7 @@
                                 fileReference="/content/dam/aem-site-template-basic/attractions/12-queenelizabethpark.png"
                                 imageServerUrl="https://s7d2.scene7.com/is/image/"
                                 isDecorative="false"
-                                linkURL="/content/aem-site-template-basic/en/attractions/attraction-details"
+                                linkURL="attractions/attraction-details.html"
                                 titleValueFromDAM="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default

@@ -14,9 +14,9 @@
   .cmp-title {
   }
   .cmp-title__text {
-    font-size: 2.25em;
+    font-size: $text-extra-large;
     font-family: $font-bold;
-    line-height: 3.0625rem;
+    line-height: $text-height-large;
   }
   .cmp-title__link {
   }
@@ -26,9 +26,13 @@
   .cmp-title {
   }
   .cmp-title__text {
-    font-size: 1.75em;
+    font-size: $text-large;
     font-family: $font-bold;
-    line-height: 2.25rem;
+    line-height: $text-height-large;
+    @include lg {
+      font-size: $text-fixed-large;
+      line-height: $text-fixed-height-large;
+    }
   }
   .cmp-title__link {
   }

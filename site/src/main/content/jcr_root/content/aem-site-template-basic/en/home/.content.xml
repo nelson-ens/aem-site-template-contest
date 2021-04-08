@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-04-08T02:39:23.448Z"
+        cq:lastModified="{Date}2021-04-08T21:29:29.378Z"
         cq:lastModifiedBy="emmanuelm"
         cq:template="/conf/aem-site-template-basic/settings/wcm/templates/home-page"
         jcr:primaryType="cq:PageContent"
@@ -28,7 +28,7 @@
                     <teaser
                         cq:styleIds="[1617139974952]"
                         jcr:description="&lt;p>Learn more about our reopening and&lt;/p>&#xd;&#xa;&lt;p>how to safely experience the city&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2021-04-08T01:44:30.886Z"
+                        jcr:lastModified="{Date}2021-04-08T21:27:59.644Z"
                         jcr:lastModifiedBy="emmanuelm"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="VANCOUVER"
@@ -43,7 +43,7 @@
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                link="https://www.adobe.com"
+                                link="home.html"
                                 text="Learn More"/>
                         </actions>
                     </teaser>
@@ -209,7 +209,7 @@
                                     cq:styleIds="[1612913724665]"
                                     jcr:created="{Date}2021-03-28T03:39:41.567Z"
                                     jcr:createdBy="emmanuelm"
-                                    jcr:lastModified="{Date}2021-04-01T22:47:16.235Z"
+                                    jcr:lastModified="{Date}2021-04-08T21:26:47.478Z"
                                     jcr:lastModifiedBy="emmanuelm"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Attractions"
@@ -220,7 +220,7 @@
                                     fileReference="/content/dam/aem-site-template-basic/explorethecity/1-attractions.png"
                                     imageServerUrl="https://s7d2.scene7.com/is/image/"
                                     isDecorative="false"
-                                    linkURL="/content/aem-site-template-basic/en/attractions"
+                                    linkURL="attractions.html"
                                     titleValueFromDAM="false">
                                     <cq:responsive jcr:primaryType="nt:unstructured">
                                         <default
@@ -233,7 +233,7 @@
                                     cq:styleIds="[1612913724665]"
                                     jcr:created="{Date}2021-03-28T03:41:32.819Z"
                                     jcr:createdBy="emmanuelm"
-                                    jcr:lastModified="{Date}2021-04-01T22:47:29.874Z"
+                                    jcr:lastModified="{Date}2021-04-08T21:28:29.312Z"
                                     jcr:lastModifiedBy="emmanuelm"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Dining"
@@ -244,7 +244,7 @@
                                     fileReference="/content/dam/aem-site-template-basic/explorethecity/2-dining.png"
                                     imageServerUrl="https://s7d2.scene7.com/is/image/"
                                     isDecorative="false"
-                                    linkURL="/content/aem-site-template-basic/en/attractions"
+                                    linkURL="attractions.html"
                                     titleValueFromDAM="false">
                                     <cq:responsive jcr:primaryType="nt:unstructured">
                                         <default
@@ -257,7 +257,7 @@
                                     cq:styleIds="[1612913724665]"
                                     jcr:created="{Date}2021-03-28T03:52:04.068Z"
                                     jcr:createdBy="emmanuelm"
-                                    jcr:lastModified="{Date}2021-04-01T22:47:39.618Z"
+                                    jcr:lastModified="{Date}2021-04-08T21:28:35.871Z"
                                     jcr:lastModifiedBy="emmanuelm"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Shopping"
@@ -268,7 +268,7 @@
                                     fileReference="/content/dam/aem-site-template-basic/explorethecity/3-shopping.png"
                                     imageServerUrl="https://s7d2.scene7.com/is/image/"
                                     isDecorative="false"
-                                    linkURL="/content/aem-site-template-basic/en/attractions"
+                                    linkURL="attractions.html"
                                     titleValueFromDAM="false">
                                     <cq:responsive jcr:primaryType="nt:unstructured">
                                         <default
@@ -281,7 +281,7 @@
                                     cq:styleIds="[1612913724665]"
                                     jcr:created="{Date}2021-03-28T03:56:07.826Z"
                                     jcr:createdBy="emmanuelm"
-                                    jcr:lastModified="{Date}2021-04-01T22:47:56.521Z"
+                                    jcr:lastModified="{Date}2021-04-08T21:28:43.462Z"
                                     jcr:lastModifiedBy="emmanuelm"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Events"
@@ -292,7 +292,7 @@
                                     fileReference="/content/dam/aem-site-template-basic/explorethecity/4-events.png"
                                     imageServerUrl="https://s7d2.scene7.com/is/image/"
                                     isDecorative="false"
-                                    linkURL="/content/aem-site-template-basic/en/attractions"
+                                    linkURL="attractions.html"
                                     titleValueFromDAM="false">
                                     <cq:responsive jcr:primaryType="nt:unstructured">
                                         <default
@@ -305,7 +305,7 @@
                                     cq:styleIds="[1612913724665]"
                                     jcr:created="{Date}2021-03-28T03:57:26.563Z"
                                     jcr:createdBy="emmanuelm"
-                                    jcr:lastModified="{Date}2021-04-01T22:48:05.851Z"
+                                    jcr:lastModified="{Date}2021-04-08T21:28:51.777Z"
                                     jcr:lastModifiedBy="emmanuelm"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Nightlife"
@@ -316,7 +316,7 @@
                                     fileReference="/content/dam/aem-site-template-basic/explorethecity/5-nightlife.png"
                                     imageServerUrl="https://s7d2.scene7.com/is/image/"
                                     isDecorative="false"
-                                    linkURL="/content/aem-site-template-basic/en/attractions"
+                                    linkURL="attractions.html"
                                     titleValueFromDAM="false">
                                     <cq:responsive jcr:primaryType="nt:unstructured">
                                         <default
@@ -329,7 +329,7 @@
                                     cq:styleIds="[1612913724665]"
                                     jcr:created="{Date}2021-03-28T03:59:17.608Z"
                                     jcr:createdBy="emmanuelm"
-                                    jcr:lastModified="{Date}2021-04-01T22:48:15.041Z"
+                                    jcr:lastModified="{Date}2021-04-08T21:28:58.413Z"
                                     jcr:lastModifiedBy="emmanuelm"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Sports"
@@ -340,7 +340,7 @@
                                     fileReference="/content/dam/aem-site-template-basic/explorethecity/6-sports.png"
                                     imageServerUrl="https://s7d2.scene7.com/is/image/"
                                     isDecorative="false"
-                                    linkURL="/content/aem-site-template-basic/en/attractions"
+                                    linkURL="attractions.html"
                                     titleValueFromDAM="false">
                                     <cq:responsive jcr:primaryType="nt:unstructured">
                                         <default
@@ -353,7 +353,7 @@
                                     cq:styleIds="[1612913724665]"
                                     jcr:created="{Date}2021-03-28T04:00:21.646Z"
                                     jcr:createdBy="emmanuelm"
-                                    jcr:lastModified="{Date}2021-04-01T22:48:23.369Z"
+                                    jcr:lastModified="{Date}2021-04-08T21:29:05.786Z"
                                     jcr:lastModifiedBy="emmanuelm"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Museums"
@@ -364,7 +364,7 @@
                                     fileReference="/content/dam/aem-site-template-basic/explorethecity/7-museums.png"
                                     imageServerUrl="https://s7d2.scene7.com/is/image/"
                                     isDecorative="false"
-                                    linkURL="/content/aem-site-template-basic/en/attractions"
+                                    linkURL="attractions.html"
                                     titleValueFromDAM="false">
                                     <cq:responsive jcr:primaryType="nt:unstructured">
                                         <default
@@ -377,7 +377,7 @@
                                     cq:styleIds="[1612913724665]"
                                     jcr:created="{Date}2021-03-28T04:08:41.756Z"
                                     jcr:createdBy="emmanuelm"
-                                    jcr:lastModified="{Date}2021-04-01T22:48:34.982Z"
+                                    jcr:lastModified="{Date}2021-04-08T21:29:12.154Z"
                                     jcr:lastModifiedBy="emmanuelm"
                                     jcr:primaryType="nt:unstructured"
                                     jcr:title="Nature"
@@ -388,7 +388,7 @@
                                     fileReference="/content/dam/aem-site-template-basic/explorethecity/8-nature.png"
                                     imageServerUrl="https://s7d2.scene7.com/is/image/"
                                     isDecorative="false"
-                                    linkURL="/content/aem-site-template-basic/en/attractions"
+                                    linkURL="attractions.html"
                                     titleValueFromDAM="false">
                                     <cq:responsive jcr:primaryType="nt:unstructured">
                                         <default
@@ -434,7 +434,7 @@
                                 jcr:created="{Date}2021-03-28T04:41:12.668Z"
                                 jcr:createdBy="emmanuelm"
                                 jcr:description="&lt;p>Explore Amsterdam's hidden gems, including museums, music venues, restaurant and breweries.&lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2021-04-06T21:10:19.145Z"
+                                jcr:lastModified="{Date}2021-04-08T21:29:20.465Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Vancouver Hidden Gems"
@@ -454,7 +454,7 @@
                                 <actions jcr:primaryType="nt:unstructured">
                                     <item0
                                         jcr:primaryType="nt:unstructured"
-                                        link="https://www.adobe.com"
+                                        link="attractions.html"
                                         text="Read More"/>
                                 </actions>
                             </teaser>
@@ -463,7 +463,7 @@
                                 jcr:created="{Date}2021-03-28T04:41:29.777Z"
                                 jcr:createdBy="emmanuelm"
                                 jcr:description="&lt;p>Explore Amsterdam's hidden gems, including museums, music venues, restaurant and breweries.&lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2021-04-01T22:49:06.438Z"
+                                jcr:lastModified="{Date}2021-04-08T21:29:29.332Z"
                                 jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Vancouver Hidden Gems"
@@ -483,7 +483,7 @@
                                 <actions jcr:primaryType="nt:unstructured">
                                     <item0
                                         jcr:primaryType="nt:unstructured"
-                                        link="https://www.adobe.com"
+                                        link="attractions.html"
                                         text="Read More"/>
                                 </actions>
                             </teaser_1443489526>

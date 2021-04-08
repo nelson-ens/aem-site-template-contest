@@ -40,8 +40,6 @@
                         cq:styleIds="[1617681132819]"
                         jcr:created="{Date}2021-04-06T17:57:22.085Z"
                         jcr:createdBy="emmanuelm"
-                        jcr:lastModified="{Date}2021-04-08T03:53:59.721Z"
-                        jcr:lastModifiedBy="emmanuelm"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="core/wcm/components/text/v2/text"
                         text="&lt;ul>&#xd;&#xa;&lt;li>[[icon=seeanddo]][[goto=./home.html]]See &amp;amp; do&lt;/li>&#xd;&#xa;&lt;li>[[icon=eatdrink]][[goto=./attractions.html]]Eat &amp;amp; drink&lt;/li>&#xd;&#xa;&lt;li>[[icon=stayplan]][[goto=./attractions/attraction-details.html]]Stay &amp;amp; plan&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"

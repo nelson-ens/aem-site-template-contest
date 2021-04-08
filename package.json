@@ -1,6 +1,6 @@
 {
   "name": "aem-site-template-basic",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Basic AEM Site Template that serves as a clean starting point.",
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
   "scripts": {
@@ -10,8 +10,7 @@
     "lint:scss": "stylelint --fix './theme/src/**/*.scss'",
     "lint:js": "eslint --fix './theme/src/**/*.js'",
     "stylefix": "npm run prettier:scss && npm run lint:scss",
-    "postinstall": "husky install",
-    "build-clean-deploy": "aem-site-template-builder && sitetemplate-cli remove aem-site-template-basic-1.0.0 -t && sitetemplate-cli installTemplate aem-site-template-basic-1.0.0.zip && sitetemplate-cli create aem-site-template-basic-1.0.0 aem-test"
+    "postinstall": "husky install"
   },
   "devDependencies": {
     "@adobe/aem-site-template-builder": "2.1.2",

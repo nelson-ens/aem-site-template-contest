@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="23a09800-9e7a-4c23-be70-23003de59f3d">
+    <jcr:content
+        dam:assetState="processed"
+        dam:processingId="83649088-fedb-4366-b2b0-59e47ba0c512"
+        dam:processingRenditions="[cqdam.machine.metadata.json,cq5dam.thumbnail.319.319.png,cq5dam.web.1280.1280.jpeg,cqdam.metadata.xml,cq5dam.thumbnail.48.48.png,cqdam.text.txt,cq5dam.thumbnail.140.100.png]"
+        dam:processingRequestedDate="{Date}2021-03-28T01:15:59.398Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7BatchId="QJRmdngBAABa_EntxI5fYM-2DguMPzo0"
+        dam:scene7RequestID="83649088-fedb-4366-b2b0-59e47ba0c512"
+        jcr:lastModified="{Date}2021-03-28T01:17:04.460Z"
+        jcr:lastModifiedBy="emmanuelm"
+        jcr:primaryType="dam:AssetContent"
+        status="Finished">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.web.1280.1280.jpeg
+                jcr:primaryType="nt:unstructured"
+                message="Format jpg is not supported for ttf files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.140.100.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for ttf files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.319.319.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for ttf files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.thumbnail.48.48.png
+                jcr:primaryType="nt:unstructured"
+                message="Format png is not supported for ttf files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            dam:extracted="{Date}2021-03-28T01:16:10.222Z"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="https://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/Montserrat Regular-TTF"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/aem-site-template-basic/fonts/montserrat/"
+            dam:scene7ID="a|957940320"
+            dam:scene7LastModified="{Long}1616894156568"
+            dam:scene7Name="Montserrat Regular-TTF"
+            dam:scene7PublishTimeStamp="{Long}1616894217709"
+            dam:scene7Type="Generic"
+            dam:scene7UploadTimeStamp="{Date}2021-03-28T01:16:57.709Z"
+            dam:sha1="d25b35242deb1c6ff888b8162ca2aacc356d3899"
+            dam:size="{Long}245708"
+            dc:format="application/x-font-ttf"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -40,6 +40,8 @@
         </root>
     </jcr:content>
     <home/>
-    <article/>
-    <contact-us/>
+    <attractions/>
+    <neighborhoods/>
+    <plan/>
+    <offers/>
 </jcr:root>

@@ -1,11 +1,20 @@
 function hideDropDown() {
-  document.getElementsByClassName('cmp-languagenavigation__group')[0].style.visibility = 'hidden'
+  var navGroup = document.getElementsByClassName('cmp-languagenavigation__group')[0]
+  if (navGroup.style.visibility === 'hidden' || !navGroup.style.visibility) {
+    return
+  }
+  navGroup.style.visibility = 'hidden'
+  navGroup.style.opacity = '0'
+  navGroup.style.transition = 'none'
   document.getElementsByClassName('cmp-languagenavigation')[0].style['border-color'] = null
   document.getElementsByClassName('downArrow')[0].classList.toggle('upArrow')
 }
 
 function showDropDown() {
-  document.getElementsByClassName('cmp-languagenavigation__group')[0].style.visibility = 'visible'
+  var navGroup = document.getElementsByClassName('cmp-languagenavigation__group')[0]
+  navGroup.style.visibility = 'visible'
+  navGroup.style.opacity = '1'
+  navGroup.style.transition = '0.5s'
   document.getElementsByClassName('cmp-languagenavigation')[0].style['border-color'] = '#46a740'
   document.getElementsByClassName('downArrow')[0].classList.toggle('upArrow')
 }

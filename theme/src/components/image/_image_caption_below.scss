@@ -1,0 +1,45 @@
+.captionBelow {
+  @include md {
+    width: 25% !important;
+  }
+  @include sm {
+    width: 50% !important;
+  }
+  .cmp-image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .cmp-image__link {
+    width: 100%;
+  }
+  .cmp-image__image {
+    width: 100%;
+    border-style: none;
+    border-radius: $border-radius;
+  }
+
+  .cmp-image__title {
+    z-index: 1;
+    width: 100%;
+    margin-top: 8%;
+    padding-bottom: 1em;
+    color: $text-dark;
+    font-size: $text-medium;
+    font-family: $font-bold;
+    line-height: $text-height-medium;
+    @include lg {
+      font-size: $text-fixed-medium;
+      line-height: $text-fixed-height-medium;
+    }
+    @include md {
+      font-size: $text-fixed-medium;
+      line-height: $text-fixed-height-medium;
+    }
+    @include sm {
+      font-size: $text-fixed-small;
+      line-height: $text-fixed-height-small;
+    }
+  }
+}

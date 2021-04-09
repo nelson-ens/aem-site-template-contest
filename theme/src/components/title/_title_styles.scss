@@ -2,9 +2,8 @@
   .cmp-title {
   }
   .cmp-title__text {
-    font-weight: lighter;
     font-size: 3em;
-    font-family: titleFont, serif;
+    font-family: $font-bolder;
     line-height: 4.125rem;
   }
   .cmp-title__link {
@@ -15,10 +14,9 @@
   .cmp-title {
   }
   .cmp-title__text {
-    font-weight: normal;
-    font-size: 2.25em;
-    font-family: titleFont, serif;
-    line-height: 3.0625rem;
+    font-size: $text-extra-large;
+    font-family: $font-bold;
+    line-height: $text-height-large;
   }
   .cmp-title__link {
   }
@@ -28,9 +26,13 @@
   .cmp-title {
   }
   .cmp-title__text {
-    font-weight: normal;
-    font-size: 1.75em;
-    line-height: 2.25rem;
+    font-size: $text-large;
+    font-family: $font-bold;
+    line-height: $text-height-large;
+    @include lg {
+      font-size: $text-fixed-large;
+      line-height: $text-fixed-height-large;
+    }
   }
   .cmp-title__link {
   }
@@ -40,8 +42,8 @@
   .cmp-title {
   }
   .cmp-title__text {
-    font-weight: normal;
     font-size: 1.125em;
+    font-family: $font-bold;
   }
   .cmp-title__link {
   }
@@ -53,6 +55,7 @@
   .cmp-title__text {
     font-weight: normal;
     font-size: 1em;
+    font-family: $font-semibold;
   }
   .cmp-title__link {
   }
@@ -65,6 +68,7 @@
     color: $grey3;
     font-weight: normal;
     font-size: 0.625em;
+    font-family: $font-bold;
     text-transform: uppercase;
   }
   .cmp-title__link {

@@ -81,6 +81,9 @@ buildNumber.properties
 ### Visual Studio ###
 .vscode
 
+.repo
+.eslintcache
+
 node_modules
 npm-debug.log
 package-lock.json

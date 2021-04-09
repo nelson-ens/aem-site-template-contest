@@ -2,10 +2,16 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:template="/conf/aem-site-template-basic/settings/wcm/templates/page-content"
+        cq:lastModified="{Date}2021-04-08T21:29:29.378Z"
+        cq:lastModifiedBy="emmanuelm"
+        cq:template="/conf/aem-site-template-basic/settings/wcm/templates/home-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Home"
-        sling:resourceType="core/wcm/components/page/v2/page">
+        sling:resourceType="core/wcm/components/page/v2/page"
+        hideInNav="true"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container">
@@ -20,25 +26,25 @@
                     sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
                     <teaser
-                        jcr:description="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xd;&#xa;"
+                        cq:styleIds="[1617139974952]"
+                        jcr:description="&lt;p>Learn more about our reopening and&lt;/p>&#xd;&#xa;&lt;p>how to safely experience the city&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-04-08T21:27:59.644Z"
+                        jcr:lastModifiedBy="emmanuelm"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="This is a Teaser"
+                        jcr:title="VANCOUVER"
                         sling:resourceType="core/wcm/components/teaser/v1/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        fileReference="/content/dam/aem-site-template-basic/Image@2x.png"
-                        pretitle="Teasers"
+                        fileReference="/content/dam/aem-site-template-basic/heroimage.png"
+                        imageServerUrl="https://s7d2.scene7.com/is/image/"
+                        pretitle="\[[icon=marker]]"
                         textIsRich="true"
                         titleFromPage="false">
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                link="https://www.adobe.com"
-                                text="Button default"/>
-                            <item1
-                                jcr:primaryType="nt:unstructured"
-                                link="https://www.adobe.com"
-                                text="Button default"/>
+                                link="home.html"
+                                text="Learn More"/>
                         </actions>
                     </teaser>
                 </container>
@@ -47,93 +53,475 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/container/v1/container"
                     layout="responsiveGrid">
-                    <title
-                        cq:styleIds="[1612896635178]"
+                    <container
+                        jcr:created="{Date}2021-03-27T04:46:13.865Z"
+                        jcr:createdBy="emmanuelm"
+                        jcr:lastModified="{Date}2021-03-27T04:46:13.865Z"
+                        jcr:lastModifiedBy="emmanuelm"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/title/v2/title"
-                        type="h2">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
+                        sling:resourceType="core/wcm/components/container/v1/container">
+                        <title
+                            cq:styleIds="[1612896645990]"
+                            jcr:created="{Date}2021-03-28T03:37:14.864Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-03-28T03:37:57.264Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Popular"
+                            sling:resourceType="core/wcm/components/title/v2/title"
+                            type="h3">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </title>
+                        <carousel
+                            cq:styleIds="[1617151038520]"
+                            jcr:created="{Date}2021-03-28T03:30:41.954Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-04-06T18:51:56.400Z"
+                            jcr:lastModifiedBy="amys"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/carousel/v1/carousel"
+                            autopauseDisabled="false"
+                            autoplay="false"
+                            delay="5000">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                            <item_1616902409828
+                                cq:panelTitle="Stanley Park"
+                                cq:styleIds="[1612913724665]"
+                                jcr:lastModified="{Date}2021-04-05T23:53:12.883Z"
+                                jcr:lastModifiedBy="amys"
                                 jcr:primaryType="nt:unstructured"
-                                offset="1"
-                                width="8"/>
-                        </cq:responsive>
-                    </title>
-                    <text
-                        cq:styleIds="[1612907912678]"
+                                jcr:title="Stanley Park"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Stanley Park"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/popular/popular1.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                titleValueFromDAM="false"/>
+                            <item_1616902405985
+                                cq:panelTitle="Granville Island"
+                                cq:styleIds="[1612913724665]"
+                                jcr:lastModified="{Date}2021-04-01T22:46:44.849Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Granville Island"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Granville Island"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/popular/popular2.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                titleValueFromDAM="false"/>
+                            <image
+                                cq:panelTitle="Vancouver Aquarium"
+                                cq:styleIds="[1612913724665]"
+                                jcr:created="{Date}2021-03-28T03:32:29.289Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-04-01T22:46:12.925Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Vancouver Aquarium"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Vancouver Aquarium"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/popular/popular3.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                linkURL="https://www.adobe.com/"
+                                titleValueFromDAM="false"/>
+                            <item_1617734839856
+                                cq:panelTitle="Hotel Test"
+                                cq:styleIds="[1612913724665]"
+                                jcr:lastModified="{Date}2021-04-06T18:56:27.442Z"
+                                jcr:lastModifiedBy="amys"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Test Image"
+                                sling:resourceType="core/wcm/components/image/v2/image"
+                                alt="Test Image"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/aem-site-template-basic/popular/popular1.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                isDecorative="false"
+                                titleValueFromDAM="false"/>
+                        </carousel>
+                    </container>
+                    <container_1013319128
+                        cq:styleIds="[1613079653269]"
+                        jcr:created="{Date}2021-03-27T04:46:23.472Z"
+                        jcr:createdBy="emmanuelm"
+                        jcr:lastModified="{Date}2021-03-27T04:46:23.472Z"
+                        jcr:lastModifiedBy="emmanuelm"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/text/v2/text"
-                        text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac pulvinar erat. In nunc orci, tincidunt a enim eu, malesuada pharetra felis. Suspendisse ut lectus id lorem vulputate scelerisque aliquam vel arcu. Aliquam elementum purus ut ornare aliquam. Phasellus rhoncus auctor velit. Etiam sollicitudin enim in tincidunt dignissim. In lacinia vulputate varius. Curabitur et accumsan justo. Pellentesque tristique malesuada risus vitae faucibus. Integer commodo dui nisl, sit amet viverra velit dapibus a.&lt;/p>&#xd;&#xa;"
-                        textIsRich="true">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
+                        sling:resourceType="core/wcm/components/container/v1/container">
+                        <title
+                            cq:styleIds="[1612896645990]"
+                            jcr:created="{Date}2021-03-28T03:38:11.384Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-03-28T03:38:26.687Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Explore the City"
+                            sling:resourceType="core/wcm/components/title/v2/title"
+                            type="h3">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </title>
+                        <container
+                            cq:styleIds="[1613079653269]"
+                            jcr:created="{Date}2021-03-28T03:43:13.289Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-03-28T03:43:13.289Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                            <container
+                                jcr:created="{Date}2021-03-29T18:10:43.214Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-03-29T18:10:43.214Z"
+                                jcr:lastModifiedBy="emmanuelm"
                                 jcr:primaryType="nt:unstructured"
-                                offset="1"
-                                width="8"/>
-                        </cq:responsive>
-                    </text>
-                    <separator
-                        cq:styleIds="[1612910963036]"
+                                sling:resourceType="core/wcm/components/container/v1/container">
+                                <image_321243728
+                                    cq:styleIds="[1612913724665]"
+                                    jcr:created="{Date}2021-03-28T03:39:41.567Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-08T21:26:47.478Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Attractions"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    alt="Attractions"
+                                    altValueFromDAM="false"
+                                    displayPopupTitle="false"
+                                    fileReference="/content/dam/aem-site-template-basic/explorethecity/1-attractions.png"
+                                    imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                    isDecorative="false"
+                                    linkURL="attractions.html"
+                                    titleValueFromDAM="false">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="3"/>
+                                    </cq:responsive>
+                                </image_321243728>
+                                <image
+                                    cq:styleIds="[1612913724665]"
+                                    jcr:created="{Date}2021-03-28T03:41:32.819Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-08T21:28:29.312Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Dining"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    alt="Dining"
+                                    altValueFromDAM="false"
+                                    displayPopupTitle="false"
+                                    fileReference="/content/dam/aem-site-template-basic/explorethecity/2-dining.png"
+                                    imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                    isDecorative="false"
+                                    linkURL="attractions.html"
+                                    titleValueFromDAM="false">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="3"/>
+                                    </cq:responsive>
+                                </image>
+                                <image_1387089499
+                                    cq:styleIds="[1612913724665]"
+                                    jcr:created="{Date}2021-03-28T03:52:04.068Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-08T21:28:35.871Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Shopping"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    alt="Shopping"
+                                    altValueFromDAM="false"
+                                    displayPopupTitle="false"
+                                    fileReference="/content/dam/aem-site-template-basic/explorethecity/3-shopping.png"
+                                    imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                    isDecorative="false"
+                                    linkURL="attractions.html"
+                                    titleValueFromDAM="false">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="3"/>
+                                    </cq:responsive>
+                                </image_1387089499>
+                                <image_853794018
+                                    cq:styleIds="[1612913724665]"
+                                    jcr:created="{Date}2021-03-28T03:56:07.826Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-08T21:28:43.462Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Events"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    alt="Events"
+                                    altValueFromDAM="false"
+                                    displayPopupTitle="false"
+                                    fileReference="/content/dam/aem-site-template-basic/explorethecity/4-events.png"
+                                    imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                    isDecorative="false"
+                                    linkURL="attractions.html"
+                                    titleValueFromDAM="false">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="3"/>
+                                    </cq:responsive>
+                                </image_853794018>
+                                <image_924320338
+                                    cq:styleIds="[1612913724665]"
+                                    jcr:created="{Date}2021-03-28T03:57:26.563Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-08T21:28:51.777Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Nightlife"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    alt="Nightlife"
+                                    altValueFromDAM="false"
+                                    displayPopupTitle="false"
+                                    fileReference="/content/dam/aem-site-template-basic/explorethecity/5-nightlife.png"
+                                    imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                    isDecorative="false"
+                                    linkURL="attractions.html"
+                                    titleValueFromDAM="false">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="3"/>
+                                    </cq:responsive>
+                                </image_924320338>
+                                <image_1440237090
+                                    cq:styleIds="[1612913724665]"
+                                    jcr:created="{Date}2021-03-28T03:59:17.608Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-08T21:28:58.413Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Sports"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    alt="Sports"
+                                    altValueFromDAM="false"
+                                    displayPopupTitle="false"
+                                    fileReference="/content/dam/aem-site-template-basic/explorethecity/6-sports.png"
+                                    imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                    isDecorative="false"
+                                    linkURL="attractions.html"
+                                    titleValueFromDAM="false">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="3"/>
+                                    </cq:responsive>
+                                </image_1440237090>
+                                <image_448810177
+                                    cq:styleIds="[1612913724665]"
+                                    jcr:created="{Date}2021-03-28T04:00:21.646Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-08T21:29:05.786Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Museums"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    alt="Museums"
+                                    altValueFromDAM="false"
+                                    displayPopupTitle="false"
+                                    fileReference="/content/dam/aem-site-template-basic/explorethecity/7-museums.png"
+                                    imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                    isDecorative="false"
+                                    linkURL="attractions.html"
+                                    titleValueFromDAM="false">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="3"/>
+                                    </cq:responsive>
+                                </image_448810177>
+                                <image_1035153110
+                                    cq:styleIds="[1612913724665]"
+                                    jcr:created="{Date}2021-03-28T04:08:41.756Z"
+                                    jcr:createdBy="emmanuelm"
+                                    jcr:lastModified="{Date}2021-04-08T21:29:12.154Z"
+                                    jcr:lastModifiedBy="emmanuelm"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Nature"
+                                    sling:resourceType="core/wcm/components/image/v2/image"
+                                    alt="Nature"
+                                    altValueFromDAM="false"
+                                    displayPopupTitle="false"
+                                    fileReference="/content/dam/aem-site-template-basic/explorethecity/8-nature.png"
+                                    imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                    isDecorative="false"
+                                    linkURL="attractions.html"
+                                    titleValueFromDAM="false">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="3"/>
+                                    </cq:responsive>
+                                </image_1035153110>
+                            </container>
+                        </container>
+                    </container_1013319128>
+                    <container_1094374709
+                        jcr:created="{Date}2021-03-28T04:40:05.497Z"
+                        jcr:createdBy="emmanuelm"
+                        jcr:lastModified="{Date}2021-03-28T04:40:05.497Z"
+                        jcr:lastModifiedBy="emmanuelm"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="core/wcm/components/separator/v1/separator"/>
-                    <teaser_707130440
-                        cq:styleIds="[1612897500904,1612830658386]"
-                        jcr:description="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xd;&#xa;"
+                        sling:resourceType="core/wcm/components/container/v1/container">
+                        <container
+                            jcr:created="{Date}2021-03-28T04:40:48.683Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-03-28T04:40:48.683Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                            <title
+                                cq:styleIds="[1612896645990]"
+                                jcr:created="{Date}2021-03-28T04:44:12.216Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:lastModified="{Date}2021-03-28T04:44:34.985Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Recommended for You"
+                                sling:resourceType="core/wcm/components/title/v2/title"/>
+                            <teaser
+                                cq:styleIds="[1617208053724]"
+                                jcr:created="{Date}2021-03-28T04:41:12.668Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:description="&lt;p>Explore Amsterdam's hidden gems, including museums, music venues, restaurant and breweries.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2021-04-08T21:29:20.465Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Vancouver Hidden Gems"
+                                sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                                actionsEnabled="true"
+                                descriptionFromPage="false"
+                                fileReference="/content/dam/aem-site-template-basic/hiddengems/1-hiddengems.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                textIsRich="true"
+                                titleFromPage="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="5"/>
+                                </cq:responsive>
+                                <actions jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        link="attractions.html"
+                                        text="Read More"/>
+                                </actions>
+                            </teaser>
+                            <teaser_1443489526
+                                cq:styleIds="[1617208053724]"
+                                jcr:created="{Date}2021-03-28T04:41:29.777Z"
+                                jcr:createdBy="emmanuelm"
+                                jcr:description="&lt;p>Explore Amsterdam's hidden gems, including museums, music venues, restaurant and breweries.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2021-04-08T21:29:29.332Z"
+                                jcr:lastModifiedBy="emmanuelm"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Vancouver Hidden Gems"
+                                sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                                actionsEnabled="true"
+                                descriptionFromPage="false"
+                                fileReference="/content/dam/aem-site-template-basic/hiddengems/2-hiddengems.png"
+                                imageServerUrl="https://s7d2.scene7.com/is/image/"
+                                textIsRich="true"
+                                titleFromPage="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="5"/>
+                                </cq:responsive>
+                                <actions jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        link="attractions.html"
+                                        text="Read More"/>
+                                </actions>
+                            </teaser_1443489526>
+                        </container>
+                    </container_1094374709>
+                    <container_2021693191
+                        jcr:created="{Date}2021-04-08T02:22:43.851Z"
+                        jcr:createdBy="emmanuelm"
+                        jcr:lastModified="{Date}2021-04-08T02:22:43.851Z"
+                        jcr:lastModifiedBy="emmanuelm"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="This is a Teaser"
-                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="false"
-                        fileReference="/content/dam/aem-site-template-basic/building_large.png"
-                        pretitle="Teasers"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="1"
-                                width="4"/>
-                        </cq:responsive>
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
-                                jcr:primaryType="nt:unstructured"
-                                link="https://www.adobe.com"
-                                text="Button default"/>
-                            <item1
-                                jcr:primaryType="nt:unstructured"
-                                link="https://www.adobe.com"
-                                text="Button default"/>
-                        </actions>
-                    </teaser_707130440>
-                    <teaser
-                        cq:styleIds="[1612830658386,1612897500904]"
-                        jcr:description="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&#xd;&#xa;"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="This is a Teaser"
-                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
-                        actionsEnabled="true"
-                        descriptionFromPage="false"
-                        fileReference="/content/dam/aem-site-template-basic/building_large.png"
-                        pretitle="Teasers"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
-                                jcr:primaryType="nt:unstructured"
-                                link="https://www.adobe.com"
-                                text="Button default"/>
-                            <item1
-                                jcr:primaryType="nt:unstructured"
-                                link="https://www.adobe.com"
-                                text="Button default"/>
-                        </actions>
-                    </teaser>
+                        sling:resourceType="core/wcm/components/container/v1/container">
+                        <image
+                            cq:styleIds="[1617849286197]"
+                            jcr:created="{Date}2021-04-08T02:22:27.631Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-04-08T02:26:12.505Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/image/v2/image"
+                            alt="footer"
+                            altValueFromDAM="false"
+                            displayPopupTitle="false"
+                            fileReference="/content/dam/aem-site-template-basic/footer_image.png"
+                            imageServerUrl="https://s7d2.scene7.com/is/image/"
+                            isDecorative="false"
+                            titleValueFromDAM="false"/>
+                        <embed
+                            cq:styleIds="[1617323108500]"
+                            jcr:created="{Date}2021-03-28T04:45:36.711Z"
+                            jcr:createdBy="emmanuelm"
+                            jcr:lastModified="{Date}2021-04-08T02:39:23.409Z"
+                            jcr:lastModifiedBy="emmanuelm"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/embed/v1/embed"
+                            html="&lt;div class='cmp-embed_footerwithsearch_content'>&#xd;&#xa;  &lt;div class='cmp-embed_footerwithsearch_window'>&#xd;&#xa;    &lt;p class='cmp-embed_footerwithsearch_caption'>Didn't find what you were looking for?&lt;/p>&#xd;&#xa;    &lt;div class='cmp-embed_footerwithsearch_search'>&#xd;&#xa;      &lt;input class='cmp-embed_footerwithsearch_input' placeholder='Search' type='text'>&lt;/input>&#xd;&#xa;    &lt;/div>&#xd;&#xa;  &lt;/div>&#xd;&#xa;&lt;/div>"
+                            type="html"/>
+                    </container_2021693191>
                 </container_1578756628>
             </container>
         </root>

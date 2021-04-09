@@ -2,7 +2,10 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
+        cq:lastModified="{Date}2021-04-06T21:47:24.575Z"
+        cq:lastModifiedBy="amys"
         cq:templateType="/conf/aem-site-template-basic/settings/wcm/template-types/page"
+        jcr:description="Content Page Template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Content Page"
         status="enabled"/>

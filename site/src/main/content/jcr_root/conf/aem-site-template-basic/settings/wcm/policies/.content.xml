@@ -18,24 +18,6 @@
                                 clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                             </policy_default>
-                            <contact_us
-                                cq:styleDefaultClasses="contactus-page"
-                                jcr:description="Includes the required client libraries."
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Contact Us"
-                                sling:resourceType="wcm/core/components/policy/policy"
-                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
-                            </contact_us>
-                            <article_page
-                                cq:styleDefaultClasses="article-page"
-                                jcr:description="Includes the required client libraries."
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Article Page"
-                                sling:resourceType="wcm/core/components/policy/policy"
-                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
-                            </article_page>
                             <policy_1612895037723
                                 cq:styleDefaultClasses="home-page"
                                 jcr:primaryType="nt:unstructured"
@@ -44,6 +26,14 @@
                                 clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                             </policy_1612895037723>
+                            <policy_1617123198107
+                                cq:styleDefaultClasses="content-page"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Content Page"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                clientlibs="[core.wcm.components.accordion.v1,core.wcm.components.tabs.v1,core.wcm.components.carousel.v1,core.wcm.components.image.v2,core.wcm.components.breadcrumb.v2,core.wcm.components.search.v1,core.wcm.components.form.text.v2,core.wcm.components.pdfviewer.v1,core.wcm.components.commons.datalayer.v1]">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                            </policy_1617123198107>
                         </page>
                     </v2>
                 </page>
@@ -69,7 +59,7 @@
                     <v1 jcr:primaryType="nt:unstructured">
                         <teaser jcr:primaryType="nt:unstructured">
                             <policy_default
-                                jcr:description="Sets the title size to H3."
+                                jcr:description="Teasers for contents."
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Teaser"
                                 sling:resourceType="wcm/core/components/policy/policy"
@@ -83,18 +73,28 @@
                                         <cq:styles jcr:primaryType="nt:unstructured">
                                             <item0
                                                 cq:styleClasses="textAtBottom"
-                                                cq:styleId="1612830658386"
-                                                cq:styleLabel="Text Bottom"
+                                                cq:styleId="1612897454978"
+                                                cq:styleLabel="Text at Bottom"
                                                 jcr:primaryType="nt:unstructured"/>
                                             <item1
                                                 cq:styleClasses="textAtLeft"
-                                                cq:styleId="1612897379772"
-                                                cq:styleLabel="Text Left"
+                                                cq:styleId="1617146991220"
+                                                cq:styleLabel="Text at Left"
                                                 jcr:primaryType="nt:unstructured"/>
                                             <item2
                                                 cq:styleClasses="textAtRight"
-                                                cq:styleId="1612897454978"
-                                                cq:styleLabel="Text Right"
+                                                cq:styleId="1617146992511"
+                                                cq:styleLabel="Text at Right"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item3
+                                                cq:styleClasses="boxedRightText"
+                                                cq:styleId="1617208053724"
+                                                cq:styleLabel="Boxed (Text at Right)"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item4
+                                                cq:styleClasses="singleButton"
+                                                cq:styleId="1617245406564"
+                                                cq:styleLabel="Single Button"
                                                 jcr:primaryType="nt:unstructured"/>
                                         </cq:styles>
                                     </item0>
@@ -107,10 +107,59 @@
                                                 cq:styleId="1612897513127"
                                                 cq:styleLabel="Dark"
                                                 jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="hiddenImage"
+                                                cq:styleId="1617216256059"
+                                                cq:styleLabel="Hide Image"
+                                                jcr:primaryType="nt:unstructured"/>
                                         </cq:styles>
                                     </item1>
                                 </cq:styleGroups>
                             </policy_default>
+                            <policy_1617744368298
+                                jcr:description="Hero Teaser for Home Page"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Home Page Hero Teaser"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                showTitleType="false"
+                                titleType="h3">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Layout"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="homeHeader"
+                                                cq:styleId="1617139974952"
+                                                cq:styleLabel="Home Header"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1617744368298>
+                            <policy_1617744583927
+                                jcr:description="Hero Teaser for the Content Pages"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Content Page Hero Teaser"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                showTitleType="false"
+                                titleType="h3">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Layout"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="contentHeader"
+                                                cq:styleId="1617228512864"
+                                                cq:styleLabel="Content Header"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1617744583927>
                         </teaser>
                     </v1>
                 </teaser>
@@ -436,12 +485,125 @@
                                         features="bold,italic"/>
                                     <links
                                         jcr:primaryType="nt:unstructured"
-                                        features="modifylink,unlink"/>
+                                        features="modifylink,unlink,anchor"/>
                                     <subsuperscript
                                         jcr:primaryType="nt:unstructured"
                                         features="-"/>
                                 </rtePlugins>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Custom Style"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="textWithIcon"
+                                                cq:styleId="1617681132819"
+                                                cq:styleLabel="Text with Icon"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
                             </policy_default>
+                            <policy_1617732078119
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Home Horizontal Menu"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <rtePlugins jcr:primaryType="nt:unstructured">
+                                    <paraformat
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*">
+                                        <formats
+                                            jcr:primaryType="nt:unstructured"
+                                            override="true">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Paragraph"
+                                                tag="p"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Quote"
+                                                tag="blockquote"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                description="Preformatted"
+                                                tag="pre"/>
+                                        </formats>
+                                    </paraformat>
+                                    <misctools
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-">
+                                        <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                            <chars
+                                                jcr:primaryType="nt:unstructured"
+                                                override="true">
+                                                <item0
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;copy;"
+                                                    name="copyright"/>
+                                                <item1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;euro;"
+                                                    name="euro"/>
+                                                <item2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;reg;"
+                                                    name="registered"/>
+                                                <item3
+                                                    jcr:primaryType="nt:unstructured"
+                                                    entity="&amp;trade;"
+                                                    name="trademark"/>
+                                            </chars>
+                                        </specialCharsConfig>
+                                    </misctools>
+                                    <edit
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <findreplace
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <undo
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <spellcheck
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <image
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <table
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <lists
+                                        jcr:primaryType="nt:unstructured"
+                                        features="*"/>
+                                    <justify
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                    <format
+                                        jcr:primaryType="nt:unstructured"
+                                        features="bold,italic"/>
+                                    <links
+                                        jcr:primaryType="nt:unstructured"
+                                        features="modifylink,unlink,anchor"/>
+                                    <subsuperscript
+                                        jcr:primaryType="nt:unstructured"
+                                        features="-"/>
+                                </rtePlugins>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Custom Style"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="textHorizontalMenu"
+                                                cq:styleId="1617681132819"
+                                                cq:styleLabel="Horizontal Menu"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1617732078119>
                         </text>
                     </v2>
                 </text>
@@ -459,6 +621,7 @@
                                 altValueFromDAM="true"
                                 disableLazyLoading="false"
                                 displayPopupTitle="true"
+                                enableDmFeatures="false"
                                 isDecorative="false"
                                 jpegQuality="{Long}85"
                                 titleValueFromDAM="true"
@@ -508,6 +671,16 @@
                                                 cq:styleClasses="caption"
                                                 cq:styleId="1612913724665"
                                                 cq:styleLabel="caption"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item2
+                                                cq:styleClasses="captionBelow"
+                                                cq:styleId="1617745594392"
+                                                cq:styleLabel="caption below image"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item3
+                                                cq:styleClasses="footer"
+                                                cq:styleId="1617849286197"
+                                                cq:styleLabel="Footer"
                                                 jcr:primaryType="nt:unstructured"/>
                                         </cq:styles>
                                     </item0>
@@ -684,6 +857,78 @@
                         </tabs>
                     </v1>
                 </tabs>
+                <carousel jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <carousel jcr:primaryType="nt:unstructured">
+                            <policy_1617150820073
+                                jcr:description="Add carousel styles"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Carousel Policy"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                autopauseDisabled="false"
+                                autoplay="false"
+                                delay="5000">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Layout"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="carousel-showOneImage"
+                                                cq:styleId="1617150887657"
+                                                cq:styleLabel="Show One Image"
+                                                jcr:primaryType="nt:unstructured"/>
+                                            <item1
+                                                cq:styleClasses="carousel-showThreeImages"
+                                                cq:styleId="1617151038520"
+                                                cq:styleLabel="Show Three Images"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1617150820073>
+                        </carousel>
+                    </v1>
+                </carousel>
+                <embed jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <embed jcr:primaryType="nt:unstructured">
+                            <policy_1617323085088
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Embed Home Page"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                embeddablesDisabled="false"
+                                htmlDisabled="false"
+                                urlDisabled="false"
+                                youtubeAutoPlayDefaultValue="false"
+                                youtubeAutoPlayEnabled="false"
+                                youtubeLoopDefaultValue="false"
+                                youtubeLoopEnabled="false"
+                                youtubeMuteDefaultValue="false"
+                                youtubeMuteEnabled="false"
+                                youtubePlaysInlineDefaultValue="false"
+                                youtubePlaysInlineEnabled="false"
+                                youtubeRelatedVideosDefaultValue="true"
+                                youtubeRelatedVideosEnabled="false">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleGroupLabel="Custom Style"
+                                        jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="footerWithSearch"
+                                                cq:styleId="1617323108500"
+                                                cq:styleLabel="Footer with Search"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1617323085088>
+                        </embed>
+                    </v1>
+                </embed>
             </components>
         </wcm>
     </core>

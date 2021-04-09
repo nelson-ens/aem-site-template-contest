@@ -4,11 +4,24 @@
     <jcr:content
         cq:conf="/conf/aem-site-template-basic"
         jcr:primaryType="nt:unstructured"
-        jcr:title="My Site">
+        jcr:title="aem-site-template-basic">
         <folderThumbnail/>
     </jcr:content>
     <asset.jpg/>
     <Image_x0040_2x.png/>
     <Group_x0020_3458_x0040_2x.png/>
     <building_large.png/>
+    <footer_image.png/>
+    <fonts/>
+    <logovancouver.png/>
+    <logovancouver.svg/>
+    <heroimage.png/>
+    <popular/>
+    <hiddengems/>
+    <hotels/>
+    <explorethecity/>
+    <attractions/>
+    <heroattraction.png/>
+    <herodetails.png/>
+    <stanleyparkgallery.png/>
 </jcr:root>

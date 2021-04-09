@@ -1,13 +1,52 @@
 .caption {
+  position: relative;
+  z-index: 1;
+  @include md {
+    width: 33% !important;
+  }
+  @include sm {
+    width: 50% !important;
+  }
   .cmp-image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: $border-radius;
+    box-shadow: $image-shadow;
   }
   .cmp-image__link {
+    width: 100%;
   }
   .cmp-image__image {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    border-color: transparent;
+    border-style: none;
+    border-radius: $border-radius;
   }
+
   .cmp-image__title {
-    margin-top: 1rem;
-    color: $grey3;
-    font-size: 0.625em;
+    position: absolute;
+    bottom: 15%;
+    z-index: 1;
+    width: 80%;
+    color: $color-background;
+    font-size: $text-large;
+    font-family: $font-bold;
+    line-height: $text-height-medium;
+    text-align: center;
+    @include lg {
+      font-size: $text-fixed-large;
+      line-height: $text-fixed-height-medium;
+    }
+    @include md {
+      font-size: $text-fixed-medium;
+      line-height: $text-fixed-height-medium;
+    }
+    @include sm {
+      font-size: $text-fixed-small;
+      line-height: $text-fixed-height-small;
+    }
   }
 }

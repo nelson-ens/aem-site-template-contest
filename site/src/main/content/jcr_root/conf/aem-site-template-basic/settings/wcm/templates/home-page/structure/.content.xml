@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-04-08T03:53:59.738Z"
+        cq:lastModifiedBy="emmanuelm"
+        cq:template="/conf/aem-site-template-basic/settings/wcm/templates/home-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="core/wcm/components/page/v2/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container"
+            layout="simple">
+            <experiencefragment-header
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/aem-site-template-basic/en/site/header/master">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="11"/>
+                </cq:responsive>
+            </experiencefragment-header>
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    layout="responsiveGrid">
+                    <teaser
+                        cq:styleIds="[1617139974952]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/teaser/v1/teaser"
+                        editable="{Boolean}true"/>
+                    <text
+                        cq:styleIds="[1617681132819]"
+                        jcr:created="{Date}2021-04-06T17:57:22.085Z"
+                        jcr:createdBy="emmanuelm"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;ul>&#xd;&#xa;&lt;li>[[icon=seeanddo]][[goto=./home.html]]See &amp;amp; do&lt;/li>&#xd;&#xa;&lt;li>[[icon=eatdrink]][[goto=./attractions.html]]Eat &amp;amp; drink&lt;/li>&#xd;&#xa;&lt;li>[[icon=stayplan]][[goto=./attractions/attraction-details.html]]Stay &amp;amp; plan&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </text>
+                </container>
+                <container_1578756628
+                    cq:styleIds="[1612998379971]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    editable="{Boolean}true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </container_1578756628>
+            </container>
+            <experiencefragment-footer
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/aem-site-template-basic/en/site/footer/master"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="fb3db09f-d7f8-4d32-9111-dbafd97294f2">
+    <jcr:content
+        dam:assetState="processed"
+        dam:processingId="2d3849e6-8b39-41e5-baae-6d4e95cf0dcd"
+        dam:processingRenditions="[cq5dam.web.1280.1280.jpeg,cqdam.metadata.xml,cq5dam.thumbnail.140.100.png,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.json,cqdam.text.txt,cq5dam.thumbnail.319.319.png]"
+        dam:processingRequestedDate="{Date}2021-03-30T19:33:11.283Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7BatchId="xxWghHgBAAAGkD93FF4eTKjctH86msAt"
+        dam:scene7RequestID="2d3849e6-8b39-41e5-baae-6d4e95cf0dcd"
+        jcr:lastModified="{Date}2021-03-30T19:34:31.439Z"
+        jcr:lastModifiedBy="emmanuelm"
+        jcr:primaryType="dam:AssetContent"
+        status="Finished">
+        <metadata
+            dam:extracted="{Date}2021-03-30T19:33:19.149Z"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="https://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/logovancouver"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/aem-site-template-basic/"
+            dam:scene7ID="a|958507353"
+            dam:scene7LastModified="{Long}1617132804529"
+            dam:scene7Name="logovancouver"
+            dam:scene7PublishTimeStamp="{Long}1617132864310"
+            dam:scene7Type="Generic"
+            dam:scene7UploadTimeStamp="{Date}2021-03-30T19:34:24.310Z"
+            dam:sha1="803c0ab0bea2e5e9eb5b3e94af97528b854afc2b"
+            dam:size="{Long}7317"
+            dc:format="image/svg+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

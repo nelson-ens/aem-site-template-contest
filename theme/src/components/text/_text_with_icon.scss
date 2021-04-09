@@ -1,0 +1,31 @@
+.textWithIcon {
+  @include sm {
+    font-size: $text-fixed-small;
+    line-height: $text-fixed-height-small;
+    .cmp-text {
+      margin: 0.25em;
+    }
+  }
+  .cmp-text {
+    & p {
+      display: flex;
+      flex-flow: row;
+      align-items: flex-start;
+      justify-content: start;
+    }
+
+    .cmp-text_textWithIcon_icon {
+      display: inline-block;
+      width: 2em;
+      min-width: 2em;
+      height: 2em;
+      margin-right: 1em;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    .cmp-text_textWithIcon_caption {
+      display: inline-block;
+      max-width: 300px;
+    }
+  }
+}

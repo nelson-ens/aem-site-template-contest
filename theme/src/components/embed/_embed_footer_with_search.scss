@@ -1,0 +1,72 @@
+.footerWithSearch {
+  position: relative;
+  top: -18em;
+  height: 0;
+
+  .cmp-embed {
+    .cmp-embed_footerwithsearch_content {
+      height: 17em;
+      padding-top: 2.5em;
+      text-align: center;
+    }
+
+    .cmp-embed_footerwithsearch_window {
+      display: inline-block;
+      width: 50%;
+      height: 65%;
+      margin: 0 auto;
+      text-align: center;
+      background-color: $color-background;
+      border-bottom: 3px solid $footer-border-color;
+    }
+
+    .cmp-embed_footerwithsearch_caption {
+      margin: 2em 2em 1em 2em;
+      color: $text-dark;
+      font-weight: bolder;
+      font-size: 1.25em;
+      line-height: 1.25em;
+      @include md {
+        font-size: $text-fixed-medium;
+        line-height: $text-fixed-height-large;
+      }
+      @include sm {
+        font-size: $text-fixed-small;
+        line-height: $text-fixed-height-medium;
+      }
+    }
+
+    .cmp-embed_footerwithsearch_search {
+      display: inline-block;
+      width: 220px;
+      height: 40px;
+      color: $text-dark;
+      background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZGVmcz48c3R5bGU+LmEsLmJ7ZmlsbDojNjA3ZDhiO30uYXtvcGFjaXR5OjA7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00MDUgLTgwKSI+PHJlY3QgY2xhc3M9ImEiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDA1IDgwKSIvPjxwYXRoIGNsYXNzPSJiIiBkPSJNNDIuMDIxLTMuNTY1LDM4LjY4Ni02LjlhNS40NzMsNS40NzMsMCwwLDEtMy4xMTYuOTY5LDUuNSw1LjUsMCwwLDEtNS41LTUuNSw1LjUwNyw1LjUwNywwLDAsMSw1LjUtNS41LDUuNTA3LDUuNTA3LDAsMCwxLDUuNSw1LjUsNS40NjQsNS40NjQsMCwwLDEtLjk3LDMuMTE0bDMuMzMzLDMuMzM0YTEsMSwwLDAsMSwwLDEuNDE0LDEsMSwwLDAsMS0uNzA3LjI5M0ExLDEsMCwwLDEsNDIuMDIxLTMuNTY1Wk0zMS45MDUtMTEuNDI3YTMuNjcsMy42NywwLDAsMCwzLjY2NiwzLjY2NiwzLjY3MSwzLjY3MSwwLDAsMCwzLjY2OC0zLjY2NkEzLjY3MywzLjY3MywwLDAsMCwzNS41NzEtMTUuMSwzLjY3MSwzLjY3MSwwLDAsMCwzMS45MDUtMTEuNDI3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzc5LjkyOSAxMDEuOTI5KSIvPjwvZz48L3N2Zz4=');
+      background-repeat: no-repeat !important;
+      background-position: 8px 8px !important;
+      background-size: 24px !important;
+      border: 1px solid $grey2;
+      border-radius: 4px;
+      @include sm {
+        width: 120px;
+      }
+    }
+
+    .cmp-embed_footerwithsearch_input {
+      width: 170px;
+      height: 24px;
+      margin-top: 7px;
+      margin-left: 36px;
+      color: $text-dark;
+      border: none;
+      outline: none;
+      @include sm {
+        width: 70px;
+        font-size: $text-fixed-small;
+      }
+      &:focus {
+        border: none;
+      }
+    }
+  }
+}

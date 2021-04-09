@@ -1,0 +1,84 @@
+.textHorizontalMenu {
+  position: relative;
+  top: -2.5em;
+  height: 0px;
+
+  .cmp-text {
+    margin: 0;
+    padding: 0;
+
+    & ul {
+      display: flex;
+      flex-flow: row;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      justify-content: start;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: $color-background;
+      border: 1px solid $grey2;
+      border-bottom: 3px solid $menu-border-color;
+      border-radius: $border-menu;
+    }
+
+    & ul li {
+      display: flex;
+      flex-grow: 1;
+      justify-content: center;
+      margin: 1em 0;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    & ul li::marker {
+      display: none !important;
+      content: '' !important;
+    }
+
+    & ul li:not(:first-child) {
+      border-left: 1px solid $grey2;
+    }
+
+    & ul li:hover {
+      margin: 0 0;
+      padding: 1em 0;
+      background-color: $grey1;
+    }
+
+    & ul li:hover:first-child {
+      border-top-left-radius: $border-radius;
+    }
+
+    & ul li:hover:last-child {
+      border-top-right-radius: $border-radius;
+    }
+
+    .cmp-text_textHorizontalMenu_icon {
+      display: inline-block;
+      width: 3.25em;
+      height: 2.125em;
+      margin-right: 1em;
+      background-repeat: no-repeat;
+      background-size: contain;
+      @include sm {
+        width: 2em;
+        margin: 0.5em 0.2em 0em 0.5em;
+      }
+    }
+    .cmp-text_textHorizontalMenu_caption {
+      display: flex;
+      align-items: center;
+      font-size: 1.125em;
+      font-family: $font-bold;
+      @include sm {
+        font-size: $text-fixed-extra-small;
+        line-height: $text-fixed-height-small;
+      }
+      & a {
+        color: $text-dark;
+        text-decoration: none;
+      }
+    }
+  }
+}

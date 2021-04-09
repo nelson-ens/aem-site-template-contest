@@ -1,0 +1,172 @@
+.boxedRightText {
+  @include lg {
+    width: 100% !important;
+    margin: 0;
+  }
+  .cmp-teaser {
+    position: static;
+    display: flex;
+    margin: 0.75em 0.75em 5em;
+    border: 1px solid #dbdbdb;
+    border-radius: $border-boxed-teaser;
+    box-shadow: 0px 3px 6px #0000001a;
+  }
+  .cmp-teaser__image {
+    flex: 2;
+    border-radius: $border-boxed-teaser;
+
+    & img {
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: $border-boxed-teaser;
+    }
+  }
+  .cmp-teaser__content {
+    position: static;
+    top: 0;
+    left: 0;
+    flex: 2;
+    margin: 0;
+    padding: 1rem;
+    transform: none;
+  }
+  .cmp-teaser__pretitle {
+    color: $grey3;
+    font-weight: 300;
+    font-size: 0.625em;
+    line-height: 1rem;
+    letter-spacing: 0.025rem;
+    text-align: start;
+    text-transform: uppercase;
+  }
+  .cmp-teaser__title {
+    margin-top: 0;
+    color: $text-dark;
+    font-size: $text-fixed-extra-large;
+    font-family: $font-bold;
+    line-height: $text-fixed-height-medium;
+    text-align: start;
+    text-decoration: none;
+    @include md {
+      font-size: $text-fixed-large;
+      line-height: $text-fixed-height-large;
+    }
+    @include sm {
+      font-size: $text-fixed-small;
+      line-height: $text-fixed-height-small;
+    }
+  }
+  .cmp-teaser__title-link {
+    color: $text-dark;
+    font-weight: 400;
+    line-height: 1.125rem;
+    text-decoration: none;
+  }
+  .cmp-teaser__description {
+    color: $text-dark;
+    font-weight: 300;
+    font-size: $text-fixed-large;
+    line-height: $text-fixed-height-large;
+    text-align: start;
+    @include md {
+      font-size: $text-fixed-small;
+      line-height: $text-fixed-height-small;
+    }
+    @include sm {
+      font-size: $text-fixed-extra-small;
+      line-height: $text-fixed-small;
+    }
+
+    & p {
+      line-height: $text-fixed-height-large;
+    }
+  }
+  .cmp-teaser__action-container {
+    display: flex;
+    justify-content: start;
+    margin: 0;
+    padding: 0;
+  }
+  .cmp-teaser__action-link {
+    margin-right: 0;
+    padding: 0;
+    color: $color-accent;
+    text-decoration: none;
+    background-color: $transparent;
+    border: none;
+    @include md {
+      font-size: $text-fixed-small;
+      line-height: $text-fixed-height-small;
+    }
+    @include sm {
+      font-size: $text-fixed-small;
+      line-height: $text-fixed-height-small;
+    }
+
+    &:hover {
+      color: $color-accent-hover;
+      background-color: $transparent;
+      border: none;
+    }
+
+    &:focus {
+      color: $color-accent-hover;
+      background-color: $transparent;
+      border: none;
+    }
+    &:disabled {
+      color: $text-dark;
+      background-color: $transparent;
+      border: none;
+    }
+  }
+
+  .cmp-teaser__action-link:first-child {
+    background-color: $transparent;
+    border: none;
+
+    &:hover {
+      color: $color-accent-hover;
+      background-color: $transparent;
+      border: none;
+    }
+
+    &:focus {
+      color: $color-accent-hover;
+      background-color: $transparent;
+      border: none;
+    }
+    &:disabled {
+      color: $text-dark;
+      background-color: $transparent;
+      border: none;
+    }
+  }
+
+  .cmp-teaser__action-link:not(:first-child) {
+    margin-left: 0.8em;
+    background-color: $transparent;
+    border: none;
+
+    &:hover {
+      color: $color-accent-hover;
+      background-color: $transparent;
+      border: none;
+    }
+
+    &:focus {
+      color: $color-accent-hover;
+      background-color: $transparent;
+      border: none;
+    }
+    &:disabled {
+      color: $text-dark;
+      background-color: $transparent;
+      border: none;
+    }
+  }
+}
